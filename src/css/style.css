@@ -72,35 +72,7 @@ h2 {
   text-transform: uppercase;
 }
 
-
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  max-width: 440px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1168px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
+/* Najpierw div.bg potem sekcja.container albo sekcja z div.container */
 
 .bg-green {
   background: var(--bg-green, #84A178);
@@ -145,5 +117,33 @@ h2 {
     .bg-ice {
       background-image: url("../src/images/background/background-desktop-2x.png");
     }
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1168px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
