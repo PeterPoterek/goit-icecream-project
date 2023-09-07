@@ -30,6 +30,8 @@ body {
   color: var(--black-shade);
   font-family: 'Montserrat', sans-serif;
   /* Chciałbym dodać jakiś ogólny styl który działał by na każde p ale wszystkie są inne i w dodatku na wersjach mobile/tablet/pc też się różnią */
+  background: var(--bg-green, #84A178);
+  /*Jak wszędzie będzie zielono to trzeba będzie tylko ustawić obrazki - może tak będzie łatwiej */
 }
 
 /* utlity classes */
@@ -74,25 +76,25 @@ h2 {
 
 /* Najpierw div.bg potem sekcja.container albo sekcja z div.container */
 
-.bg-green {
+/* .bg-green {
   background: var(--bg-green, #84A178);
-}
+} */
 
 .bg-ice {
-  background-image: url("../src/images/background/background-mobile-1x.png");
+  background-image: url("../images/background/background-mobile-1x.png");
   background-position: center top;
-  background-repeat: repeat-y;
+  background-repeat: repeat-y repeat-x;
 }
 
 @media screen and (min-width: 768px) {
   .bg-ice {
-    background-image: url("../src/images/background/background-tablet-1x.png");
+    background-image: url("../images/background/background-tablet-1x.png");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .bg-ice {
-    background-image: url("../src/images/background/background-desktop-1x.png");
+    background-image: url("../images/background/background-desktop-1x.png");
   }
 }
 
@@ -102,20 +104,20 @@ h2 {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .bg-ice {
-    background-image: url("../src/images/background/background-mobile-2x.png");
+    background-image: url("../images/background/background-mobile-2x.png");
     background-position: center top;
     background-repeat: repeat-y;
   }
 
   @media screen and (min-width: 768px) {
     .bg-ice {
-      background-image: url("../src/images/background/background-tablet-2x.png");
+      background-image: url("../images/background/background-tablet-2x.png");
     }
   }
 
   @media screen and (min-width: 1200px) {
     .bg-ice {
-      background-image: url("../src/images/background/background-desktop-2x.png");
+      background-image: url("../images/background/background-desktop-2x.png");
     }
   }
 }
