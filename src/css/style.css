@@ -24,6 +24,7 @@ body {
   font-size: var(--font-size-normal);
   color: var(--black-shade);
   font-family: 'Montserrat', sans-serif;
+  /* Chciałbym dodać jakiś ogólny styl który działał by na każde p ale wszystkie są inne i w dodatku na wersjach mobile/tablet/pc też się różnią */
 }
 
 /* utlity classes */
@@ -43,6 +44,30 @@ ul,
 menu {
   list-style: none;
 }
+
+h1 {
+  color: #FCFCFC;
+  font-family: "Seymour One";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Seymour One";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+
 
 .container {
   display: flex;
@@ -71,5 +96,3 @@ menu {
     padding-right: 16px;
   }
 }
-
-/* zmiana */
