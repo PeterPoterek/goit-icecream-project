@@ -3,6 +3,7 @@
   --yellow: #f8d24e;
   --yellow-shade: #efd478;
   --dark-green: #0a8817;
+  --rivergrass: #84a178;
   --green-shade: #aec6a5;
   --dark-orange: #d6936d;
   --gray: #ababab;
@@ -146,4 +147,18 @@ h2 {
     padding-left: 16px;
     padding-right: 16px;
   }
+
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
+
