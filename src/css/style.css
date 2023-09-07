@@ -11,11 +11,7 @@
   --white-shade: #fcfcfc;
   --black: #000000;
   --black-shade: #131313;
-  --bg-green: #84A178;
-
-
-
-
+  --bg-green: #84a178;
 
   /* fonts */
   --font-size-small: 14px;
@@ -31,7 +27,7 @@ body {
   color: var(--black-shade);
   font-family: 'Montserrat', sans-serif;
   /* Chciałbym dodać jakiś ogólny styl który działał by na każde p ale wszystkie są inne i w dodatku na wersjach mobile/tablet/pc też się różnią */
-  background: var(--bg-green, #84A178);
+  background: var(--bg-green, #84a178);
   /*Jak wszędzie będzie zielono to trzeba będzie tylko ustawić obrazki - może tak będzie łatwiej */
 }
 
@@ -54,8 +50,8 @@ menu {
 }
 
 h1 {
-  color: #FCFCFC;
-  font-family: "Seymour One";
+  color: #fcfcfc;
+  font-family: 'Seymour One';
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +62,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-family: "Seymour One";
+  font-family: 'Seymour One';
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -82,43 +78,43 @@ h2 {
 } */
 
 .bg-ice {
-  background-image: url("../images/background/background-mobile-1x.png");
+  background-image: url('../images/background/background-mobile-1x.png');
   background-position: center top;
   background-repeat: repeat-y repeat-x;
 }
 
 @media screen and (min-width: 768px) {
   .bg-ice {
-    background-image: url("../images/background/background-tablet-1x.png");
+    background-image: url('../images/background/background-tablet-1x.png');
   }
 }
 
 @media screen and (min-width: 1200px) {
   .bg-ice {
-    background-image: url("../images/background/background-desktop-1x.png");
+    background-image: url('../images/background/background-desktop-1x.png');
   }
 }
 
 @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .bg-ice {
-    background-image: url("../images/background/background-mobile-2x.png");
+    background-image: url('../images/background/background-mobile-2x.png');
     background-position: center top;
     background-repeat: repeat-y;
   }
 
   @media screen and (min-width: 768px) {
     .bg-ice {
-      background-image: url("../images/background/background-tablet-2x.png");
+      background-image: url('../images/background/background-tablet-2x.png');
     }
   }
 
   @media screen and (min-width: 1200px) {
     .bg-ice {
-      background-image: url("../images/background/background-desktop-2x.png");
+      background-image: url('../images/background/background-desktop-2x.png');
     }
   }
 }
@@ -150,17 +146,16 @@ h2 {
     padding-right: 16px;
   }
 
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 }
-
