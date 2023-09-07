@@ -1,5 +1,9 @@
-::root {
+:root {
   /* colors */
 
   /* font sizes */
+}
+
+body {
+  background-color: #979797;
 }
