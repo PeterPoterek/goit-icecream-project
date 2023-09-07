@@ -11,6 +11,11 @@
   --white-shade: #fcfcfc;
   --black: #000000;
   --black-shade: #131313;
+  --bg-green: #84A178;
+
+
+
+
 
   /* fonts */
   --font-size-small: 14px;
@@ -25,6 +30,7 @@ body {
   font-size: var(--font-size-normal);
   color: var(--black-shade);
   font-family: 'Montserrat', sans-serif;
+  /* Chciałbym dodać jakiś ogólny styl który działał by na każde p ale wszystkie są inne i w dodatku na wersjach mobile/tablet/pc też się różnią */
 }
 
 /* utlity classes */
@@ -43,6 +49,76 @@ menu {
 ul,
 menu {
   list-style: none;
+}
+
+h1 {
+  color: #FCFCFC;
+  font-family: "Seymour One";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Seymour One";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+/* Najpierw div.bg potem sekcja.container albo sekcja z div.container */
+
+.bg-green {
+  background: var(--bg-green, #84A178);
+}
+
+.bg-ice {
+  background-image: url("../src/images/background/background-mobile-1x.png");
+  background-position: center top;
+  background-repeat: repeat-y;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-ice {
+    background-image: url("../src/images/background/background-tablet-1x.png");
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bg-ice {
+    background-image: url("../src/images/background/background-desktop-1x.png");
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .bg-ice {
+    background-image: url("../src/images/background/background-mobile-2x.png");
+    background-position: center top;
+    background-repeat: repeat-y;
+  }
+
+  @media screen and (min-width: 768px) {
+    .bg-ice {
+      background-image: url("../src/images/background/background-tablet-2x.png");
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .bg-ice {
+      background-image: url("../src/images/background/background-desktop-2x.png");
+    }
+  }
 }
 
 .container {
@@ -71,7 +147,7 @@ menu {
     padding-left: 16px;
     padding-right: 16px;
   }
-}
+
 
 .visually-hidden {
   position: absolute;
@@ -85,3 +161,4 @@ menu {
   clip-path: inset(50%);
   margin: -1px;
 }
+
