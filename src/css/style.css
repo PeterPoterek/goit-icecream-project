@@ -19,6 +19,7 @@
   --font-size-xl: 36px;
   --font-size-xxl: 58px;
 }
+
 body {
   font-size: var(--font-size-normal);
   color: var(--black-shade);
@@ -41,4 +42,32 @@ menu {
 ul,
 menu {
   list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
