@@ -1,12 +1,16 @@
 <section class="hero-content-section" id="hero-content">
-  <div class="container">
+  <div class="container hero-content-wrapper">
+    <img class="hero-content-dots" src="./images/background/dots-desktop.png" alt="" />
+
     <h1 class="hero-content-title">ice cream made with passion</h1>
 
     <div>
-      <a class="hero-content" href="#products">Products</a>
-      <a href="#about">How it's made?</a>
+      <div class="hero-button-container">
+        <a class="hero-content-button-border" href="#products">Products</a>
+        <a class="hero-content-button-underline" href="#about">How it's made?</a>
+      </div>
 
-      <div>
+      <div class="hero-content-description">
         <img
           width="225"
           height="225"
@@ -17,17 +21,22 @@
           "
           alt="lots of colorful ice cream scoops on a plate"
         />
-        <p>
-          Indulge in a scoop of ice cream made with passion and treat your taste buds to an
-          unforgettable experience!
-        </p>
 
-        <svg width="40" height="16">
-          <use href="./images/icons.svg#icon-arrow"></use>
-        </svg>
+        <div class="hero-content-text-wrapper">
+          <p class="hero-content-text">
+            Indulge in a scoop of ice cream made with passion and treat your taste buds to an
+            unforgettable experience!
+          </p>
+
+          <a href="#products">
+            <svg class="hero-content-arrow-icon" width="40" height="16">
+              <use href="./images/icons.svg#icon-arrow"></use>
+            </svg>
+          </a>
+        </div>
       </div>
 
-      <div>
+      <div class="hero-content-image-wrapper">
         <img
           width="456"
           height="560"
@@ -38,11 +47,15 @@
           "
           alt="colorful image of ice cream with happy face"
         />
-      </div>
 
-      <div>
-        <p><span>16</span></p>
-        <p><span>23</span></p>
+        <div>
+          <p class="hero-content-statistics-number">
+            <span>16</span>
+          </p>
+          <p class="hero-content-statistics-number">
+            <span>23</span>
+          </p>
+        </div>
       </div>
     </div>
   </div>
