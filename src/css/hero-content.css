@@ -54,10 +54,22 @@
   border-radius: 15px;
 
   padding: 12px 34px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-content-button-border:hover,
+.hero-content-button-border:focus {
+  border: solid 2px var(--dark-green);
 }
 .hero-content-button-underline {
   color: var(--yellow);
   font-weight: 600;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-content-button-underline:hover,
+.hero-content-button-underline:focus {
+  color: var(--dark-green);
 }
 .hero-content-text-wrapper {
   display: flex;
@@ -75,8 +87,17 @@
   line-height: 1.4;
   letter-spacing: normal;
 }
+
 .hero-content-arrow-icon {
   fill: var(--white);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-content-arrow-icon:hover,
+.hero-content-arrow-icon:focus {
+  transform: scaleX(1.2);
+  transform-origin: left;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-content-image-wrapper {
   position: absolute;
