@@ -112,13 +112,13 @@
 }
 @keyframes pulseShadow {
   0% {
-    filter: drop-shadow(0 0 60px rgba(255, 255, 255, 0.3));
+    filter: drop-shadow(0 0 100px rgba(255, 255, 255, 0.3));
   }
   50% {
-    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.6));
+    filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.6));
   }
   100% {
-    filter: drop-shadow(0 0 60px rgba(255, 255, 255, 0.3));
+    filter: drop-shadow(0 0 100px rgba(255, 255, 255, 0.3));
   }
 }
 
@@ -133,7 +133,7 @@
 
 .hero-content-image {
   display: inline-block;
-  animation: pulseShadow 2s ease-in-out, onPageLoad 0.5s linear;
+  animation: pulseShadow 2s ease-in-out infinite, onPageLoad 0.5s linear;
   animation-fill-mode: forwards;
 }
 .hero-content-statistics-container {
