@@ -23,6 +23,15 @@
   --font-size-xxl: 58px;
 }
 
+html {
+  cursor: url('../images/cursor-black.svg'), auto;
+}
+
+a:hover,
+button:hover {
+  cursor: url('../images/cursor-transparent.svg'), pointer;
+}
+
 body {
   font-size: var(--font-size-normal);
   color: var(--black-shade);
@@ -163,3 +172,4 @@ h2 {
 .h-hidden {
   display: none;
 }
+
