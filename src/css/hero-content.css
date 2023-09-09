@@ -10,6 +10,10 @@
 }
 .hero-content-title {
   font-size: var(--font-size-xl);
+
+  letter-spacing: 1.52px;
+  line-height: 1.26316;
+
   max-width: 367px;
 }
 .hero-button-container {
@@ -122,6 +126,12 @@
 
   animation: pulseShadow 2s ease-in-out infinite;
 }
+.hero-content-statistics-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 37px;
+}
 .hero-content-statistics-number {
   font-size: var(--font-size-xxl-small);
   font-weight: 900;
@@ -135,19 +145,15 @@
 .hero-content-statistics-number:nth-of-type(2)::after {
   content: 'food trucks';
 }
+
 .hero-content-statistics-number::after {
   display: block;
 
   color: var(--white-shade);
   font-size: var(--font-size-small);
   font-weight: 400;
-}
-.hero-content-statistics-number::after {
-  display: block;
 
-  color: var(--white-shade);
-  font-size: var(--font-size-small);
-  font-weight: 400;
+  padding-top: 4px;
 }
 .hero-content-dots {
   position: absolute;
