@@ -100,10 +100,10 @@ h2 {
 }
 
 @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .bg-ice {
     background-image: url('../images/background/background-mobile-2x.png');
     background-position: center top;
@@ -144,17 +144,17 @@ h2 {
   .container {
     max-width: 1168px;
   }
+}
 
-  .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-  }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
