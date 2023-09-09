@@ -7,6 +7,9 @@
   position: relative;
 
   justify-content: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .hero-content-title {
   font-size: var(--font-size-xl);
