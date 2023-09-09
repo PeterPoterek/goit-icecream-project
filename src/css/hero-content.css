@@ -227,6 +227,20 @@
 }
 
 @media screen and (min-width: 480px) {
+  .hero-content-image-wrapper {
+    position: absolute;
+    top: 90px;
+    right: 0;
+  }
+  .hero-content-image {
+    width: 218px;
+    height: 267px;
+  }
+  .hero-content-section {
+    padding-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media screen and (min-width: 768px) {
 }
