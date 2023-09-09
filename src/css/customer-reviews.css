@@ -80,3 +80,8 @@
   height: 12px;
   background-color: var(--rivergrass, #84a178);
 }
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet:focus {
+  cursor: url('../images/cursor-transparent.svg'), pointer;
+}

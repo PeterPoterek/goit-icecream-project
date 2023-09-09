@@ -23,6 +23,15 @@
   --font-size-xxl: 58px;
 }
 
+html {
+  cursor: url('../images/cursor-black.svg'), auto;
+}
+
+a:hover,
+button:hover {
+  cursor: url('../images/cursor-transparent.svg'), pointer;
+}
+
 body {
   font-size: var(--font-size-normal);
   color: var(--black-shade);
@@ -100,10 +109,10 @@ h2 {
 }
 
 @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .bg-ice {
     background-image: url('../images/background/background-mobile-2x.png');
     background-position: center top;
