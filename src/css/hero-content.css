@@ -1,6 +1,5 @@
 .hero-content-section {
   padding-top: 56px;
-  padding-left: 20px;
 }
 .hero-content-wrapper {
   display: flex;
@@ -18,6 +17,7 @@
   letter-spacing: 1.52px;
   line-height: 1.26316;
 
+  padding-left: 20px;
   max-width: 367px;
 
   /* dekstop */
@@ -39,6 +39,7 @@
   padding-top: 28px;
   padding-bottom: 42px;
 
+  padding-left: 20px;
   max-width: 300px;
   /* desktop */
 
@@ -84,6 +85,7 @@
   /*desktop */
 
   font-size: var(--font-size-xs);
+  font-weight: 600;
 }
 .hero-content-button-border:hover,
 .hero-content-button-border:focus {
@@ -134,16 +136,28 @@
 }
 .hero-content-image-wrapper {
   /* desktop */
-  position: absolute;
+  /* position: absolute;
   top: 0;
   right: 86px;
 
-  display: flex;
+  display: flex; */
   /* desktop */
-  position: static;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero-content-dots-mobile-left {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+}
+.hero-content-dots-mobile-right {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
 }
 @keyframes pulseShadow {
   0% {
