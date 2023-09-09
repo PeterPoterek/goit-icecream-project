@@ -23,6 +23,15 @@
   --font-size-xxl: 58px;
 }
 
+html {
+  cursor: url('../images/cursor-black.svg'), auto;
+}
+
+a:hover,
+button:hover {
+  cursor: url('../images/cursor-transparent.svg'), pointer;
+}
+
 body {
   font-size: var(--font-size-normal);
   color: var(--black-shade);
@@ -146,15 +155,16 @@ h2 {
   }
 }
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
