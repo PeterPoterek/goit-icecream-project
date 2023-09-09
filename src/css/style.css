@@ -73,3 +73,21 @@ menu {
 }
 
 /* zmiana */
+
+/* FOOTER*/
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  padding-bottom: 20px;
+  background: #84A178;
+}
+
+.footer-tittle {
+  color: #FCFCFC;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
