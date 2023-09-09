@@ -27,7 +27,7 @@
 
   max-width: 300px;
 }
-@keyframes spin {
+@keyframes plateSpin {
   0% {
     transform: rotate(0deg);
   }
@@ -37,7 +37,7 @@
 }
 
 .hero-content-ice-spinning {
-  animation: spin 20s linear infinite;
+  animation: plateSpin 20s linear infinite;
 }
 .hero-content-description {
   display: flex;
@@ -121,10 +121,20 @@
     filter: drop-shadow(0 0 60px rgba(255, 255, 255, 0.3));
   }
 }
+
+@keyframes onPageLoad {
+  0% {
+    transform: rotate(0deg) scale(0.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
 .hero-content-image {
   display: inline-block;
-
-  animation: pulseShadow 2s ease-in-out infinite;
+  animation: pulseShadow 2s ease-in-out, onPageLoad 0.5s linear;
+  animation-fill-mode: forwards;
 }
 .hero-content-statistics-container {
   display: flex;
