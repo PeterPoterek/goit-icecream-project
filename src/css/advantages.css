@@ -5,6 +5,12 @@
     margin-bottom: 32px;
 }
 
+@media screen and (min-width: 1200px) {
+    #advantages {
+        margin-bottom: 60px;
+    }
+}
+
 
 .h-hidden {
     display: none;
@@ -16,12 +22,39 @@
     gap: 32px;
 }
 
+@media screen and (min-width: 768px) {
+    #advantages ul {
+        flex-direction: row;
+        gap: 80px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #advantages ul {
+        gap: 32px;
+    }
+}
+
 #advantages ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
     width: 230px;
+}
+
+@media screen and (min-width: 768px) {
+    #advantages ul li {
+        width: 152px;
+        gap: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #advantages ul li {
+        width: 368px;
+        /* height: 52px; */
+    }
 }
 
 
@@ -33,12 +66,42 @@
     text-transform: uppercase;
 }
 
+@media screen and (min-width: 768px) {
+    .advantages-big {
+        text-transform: none;
+        font-size: 48px;
+        letter-spacing: 1.92px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages-big {
+        font-size: 58px;
+        letter-spacing: 2.32px;
+    }
+}
+
 .advantages-small {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
     line-height: 170%;
 
+}
+
+@media screen and (min-width: 768px) {
+    .advantages-small {
+        font-size: 14px;
+        line-height: 174%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages-small {
+        font-size: 16px;
+        line-height: 176%;
+        letter-spacing: 0.32px;
+    }
 }
 
 /* .advantage-icons-bg {
@@ -80,7 +143,18 @@ dlaczego ikona ze skompresowanego pliku nie działa mimo że wstawiona przez htm
     justify-content: center;
     align-items: center;
     margin-bottom: 16px;
+}
 
+@media screen and (min-width: 768px) {
+    .advantages-big :before {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages-big :before {
+        margin-bottom: 40px;
+    }
 }
 
 #advantages ul li:first-child .advantages-big::before {
