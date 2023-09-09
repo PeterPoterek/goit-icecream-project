@@ -23,6 +23,18 @@
 
   max-width: 300px;
 }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-content-ice-spinning {
+  animation: spin 20s linear infinite;
+}
 .hero-content-description {
   display: flex;
   justify-content: space-between;
@@ -53,14 +65,15 @@
   justify-content: center;
 
   gap: 24px;
+  max-width: 200px;
 }
 .hero-content-text {
   color: var(--white);
   font-size: var(--font-size-small);
   font-family: 'DM Sans', sans-serif;
 
-  line-height: 140%;
-  max-width: 200px;
+  line-height: 1.4;
+  letter-spacing: normal;
 }
 .hero-content-arrow-icon {
   fill: var(--white);
@@ -71,6 +84,8 @@
   right: 86px;
 
   display: flex;
+}
+.hero-content-image {
 }
 .hero-content-statistics-number {
   font-size: var(--font-size-xxl-small);
