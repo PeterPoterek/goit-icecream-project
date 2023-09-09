@@ -11,12 +11,23 @@
   margin: 0 auto;
 }
 .hero-content-title {
+  /* dekstop */
   font-size: var(--font-size-xl);
 
   letter-spacing: 1.52px;
   line-height: 1.26316;
 
   max-width: 367px;
+
+  /* dekstop */
+
+  font-size: var(--font-size-medium);
+  padding-left: 20px;
+  letter-spacing: 1.04px;
+}
+.hero-content-title-highlighted {
+  font-size: var(--font-size-heading-highlight);
+  line-height: 0;
 }
 .hero-button-container {
   display: flex;
@@ -40,6 +51,8 @@
 
 .hero-content-ice-spinning {
   animation: plateSpin 20s linear infinite;
+
+  display: none;
 }
 .hero-content-description {
   display: flex;
@@ -111,6 +124,8 @@
   right: 86px;
 
   display: flex;
+
+  display: none;
 }
 @keyframes pulseShadow {
   0% {
@@ -143,6 +158,8 @@
   flex-direction: column;
 
   gap: 37px;
+
+  display: none;
 }
 .hero-content-statistics-number {
   font-size: var(--font-size-xxl-small);
