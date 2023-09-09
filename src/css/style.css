@@ -153,6 +153,7 @@ h2 {
   .container {
     max-width: 1168px;
   }
+}
 
   .visually-hidden {
     position: absolute;
@@ -166,4 +167,4 @@ h2 {
     clip-path: inset(50%);
     margin: -1px;
   }
-}
+

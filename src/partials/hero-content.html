@@ -1,6 +1,16 @@
 <section class="hero-content-section" id="hero-content">
   <div class="hero-content-wrapper">
-    <img class="hero-content-dots" src="./images/background/dots-desktop.png" alt="" />
+
+    <img
+      class="hero-content-dots"
+      src="./images/background/dots-desktop-1x.png"
+      srcset="
+        ./images/background/dots-desktop-1x.png 1x,
+        ./images/background/dots-desktop-2x.png 2x
+      "
+      alt=""
+    />
+
 
     <h1 class="hero-content-title">ice cream made with passion</h1>
 
@@ -12,6 +22,7 @@
 
       <div class="hero-content-description">
         <img
+          class="hero-content-ice-spinning"
           width="225"
           height="225"
           src="./images/hero-section/spinning-ice-cream-hero-1x.png"
@@ -21,14 +32,13 @@
           "
           alt="lots of colorful ice cream scoops on a plate"
         />
-        <!--  -->
         <div class="hero-content-text-wrapper">
           <p class="hero-content-text">
             Indulge in a scoop of ice cream made with passion and treat your taste buds to an
             unforgettable experience!
           </p>
 
-          <a href="#products">
+          <a class="hero-content-arrow-button" href="#products">
             <svg class="hero-content-arrow-icon" width="40" height="16">
               <use href="./images/icons.svg#icon-arrow"></use>
             </svg>
@@ -38,6 +48,7 @@
 
       <div class="hero-content-image-wrapper">
         <img
+          class="hero-content-image"
           width="456"
           height="560"
           src="./images/hero-section/icecream-hero-desktop-1x.png"
@@ -48,7 +59,7 @@
           alt="colorful image of ice cream with happy face"
         />
 
-        <div>
+        <div class="hero-content-statistics-container">
           <p class="hero-content-statistics-number">
             <span>16</span>
           </p>

@@ -1,0 +1,449 @@
+/* Modals */
+
+#overley {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: 1;
+  background: rgba(10,10,10,.5);
+  transition: opacity .25s cubic-bezier(.4,0,.2,1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+}
+
+.backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.backdrop.is-hidden.modal {
+    transform: scale(1.1);
+}
+
+.modal {
+  width: 280px;
+  background: #fcfcfc;
+  border: 2px solid #f8d24e;
+  border-radius: 10px;
+  padding: 28px;
+  transition: transform .25s cubic- bezier(.4,0,.2,1);
+    transform: scale(1);
+    z-index: 30;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 568px;
+    padding: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(1);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .close-btn {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+.modal-btn {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  padding: 0;
+  position: absolute;
+  top:8px;
+  right:8px;
+}
+
+.modal__title {
+  text-transform: none;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.title {
+  text-align: center;
+  text-decoration: uppercase;
+  font-family: Seymour One,sans-serif;
+  font-size: 3rem;
+  line-height: 1.27;
+}
+
+.modal-list {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+/* Buy now modal */
+
+.modal-products-list__item--green::before {
+    background: linear-gradient(rgba(156,190,143,.7),rgba(156,190,143,.7)),#d9d9d9;
+    box-shadow: 0 5.26027px 19.726px rgba(10,136,23,.25);
+}
+.modal-products-list__item--green::after {
+    background: url(./images/buy-now-modal/ice-cream-buy-now-modal-1x.png) 50%/cover no-repeat;
+}
+
+.modal-products-list__item--yellow::before {
+    background: linear-gradient(rgba(248,210,78,.7),rgba(248,210,78,.7)),#d9d9d9;
+    box-shadow: 0 5.26027px 19.726px rgba(153,114,23,.25);
+}
+.modal-products-list__item--yellow::after {
+    background: url(./images/buy-now-modal/ice-coffee-buy-now-modal-1x.png) 50%/cover no-repeat;
+}
+
+.modal-products-list__item--brown::before {
+    background: linear-gradient(rgba(213,117,63,.7),rgba(213,117,63,.7)),#d9d9d9;
+    box-shadow: 0 5.26027px 19.726px rgba(0,0,0,.25);
+}
+.modal-products-list__item--brown::after {
+    background: url(./images/buy-now-modal/milkshake-buy-now-modal-1x.png) 50%/cover no-repeat;
+}
+
+.modal-list_item:after {
+  content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -63px;
+}
+
+.modal-list_item:before {
+  content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -55px;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-form__input-wrapper {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.modal-form__label {
+    color: #131313;
+    transform-origin: 0;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    transition: transform .25s cubic-bezier(.4,0,.2,1),font-size .25s cubic-bezier(.4,0,.2,1);
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+
+.modal-form__input {
+    height: 32px;
+    width: 100%;
+    color: #131313;
+    background-color: rgba(248,210,78,.1);
+    border: 1px solid #84a278;
+    border-radius: 10px;
+    padding: 11px 16px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    display: block;
+}
+
+.modal-form__input-wrapper-text {
+    margin-bottom: 24px;
+}
+
+.btn {
+    color: #131313;
+    cursor: pointer;
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 1rem;
+    outline: none;
+    padding: 10px 32px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.29;
+    display: inline-block;
+}
+
+.btn--primary {
+    background-color: #f8d24e;
+    transition: color .25s cubic-bezier(.4,0,.2,1),background-color .25s cubic-bezier(.4,0,.2,1)
+}
+
+/* Products modal */
+
+.products__link {
+  transform-origin: 0;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  margin-top: auto;
+  transition-property: transform;
+  transition-duration: .25s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.products__link:hover {
+  transform: scaleX(1.2);
+}
+
+.modal__title {
+  text-transform: none;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .modal__title {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Seymour One,sans-serif;
+  font-size: 3rem;
+  line-height: 1.27;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 3.4rem;
+  }
+}
+
+.modal__image {
+  width: 131px;
+  height: 131px;
+  background: linear-gradient(rgba(156,190,143,.7),rgba(156,190,143,.7)),#d9d9d9;
+  border-radius: 50%;
+  margin: 0 auto 25px;
+  display: block;
+  position: relative;
+}
+
+.modal__image::after {
+  content: "";
+  width: 131px;
+  height: 131px;
+  background-image: url(./images/products/products-modal-ice-cream-1x.png);
+  border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  box-shadow: 0 5.26027px 19.726px rgba(10,136,23,.25);
+}
+
+.modal-products-list {
+  justify-content: center;
+  gap: 9px;
+  margin-bottom: 39px;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-products-list {
+    gap: 20px;
+  }
+}
+
+.modal-products-list__item {
+  width: 53px;
+  min-height: 72px;
+  border: 2px solid #9cbe8f;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 8px;
+  font-size: 1rem;
+  line-height: 1.2;
+  display: flex;
+  position: relative;
+}
+
+.modal-products__content {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.modal-products-elements {
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 48px;
+  display: flex;
+}
+
+.modal-products-elements__item {
+  justify-content: space-between;
+  line-height: 1.9;
+  display: flex;
+}
+
+.modal-form {
+  flex-direction: column;
+  align-items: center;
+  display: flex
+}
+
+.modal-form__input-wrapper {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-form__input-wrapper {
+    margin-bottom: 16px;
+  }
+}
+
+.modal-form__input-wrapper-text {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-form__input-wrapper-text {
+    margin-bottom: 32px;
+  }
+}
+
+/* About */
+
+.about-modal__title {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-modal__title {
+    margin-bottom: 32px;
+  }
+}
+
+.about__vid {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__vid {
+    margin-bottom: 32px;
+  }
+}
+
+.about__vid-description {
+  letter-spacing: 0;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  .about__vid-description {
+    font-size: 1.6rem;
+  }
+}
+
+/* Our Locations */
+
+.modal__locations-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.modal__locations-title {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal__locations-title {
+    margin-bottom: 32px;
+  }
+}
+
+.modal__locations-map {
+  width: 224px;
+  height: 199px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal__locations-map {
+    width: 448px;
+    height: 260px;
+    margin-bottom: 32px;
+  }
+}
+
+/* Franchise */
+
+.modal__franchise-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .modal__franchise-container {
+
+  }
+}
+
+.modal__franchise-title {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal__franchise-title {
+    max-width: 322px;
+    margin-bottom: 24px;
+  }
+}
+
+.modal_franchise-text {
+  letter-spacing: normal;
+  margin-bottom: 24px;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  .modal_franchise-text {
+    margin-bottom: 32px;
+    padding: 0 24px;
+    font-size: 1.6rem;
+  }
+}
