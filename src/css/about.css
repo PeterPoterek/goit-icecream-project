@@ -1,6 +1,11 @@
 *, :before, :after {
     box-sizing: border-box;
 }
+html {
+    tab-size: 4;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
 .about_title-label {
     margin-bottom: 12px;
     color: #fcfcfc;
