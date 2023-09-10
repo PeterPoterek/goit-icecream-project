@@ -107,7 +107,7 @@
 }
 .hero-content-image-wrapper {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 86px;
 
   display: flex;
