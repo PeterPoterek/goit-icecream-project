@@ -7,7 +7,7 @@
   position: relative;
 
   justify-content: center;
-  max-width: 1200px;
+  max-width: 320px;
   margin: 0 auto;
 }
 .hero-content-title {
@@ -211,6 +211,9 @@
 }
 
 @media screen and (min-width: 480px) {
+  .hero-content-wrapper {
+    max-width: 480px;
+  }
   .hero-content-image-wrapper {
     position: absolute;
     top: 90px;
@@ -234,6 +237,9 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .hero-content-wrapper {
+    max-width: 768px;
+  }
   .hero-content-section {
     padding-top: 14px;
     padding-left: 32px;
@@ -299,6 +305,15 @@
 
     gap: 37px;
   }
+  .hero-content-statistics-number {
+    font-size: var(--font-size-heading-xs);
+  }
+  .hero-content-statistics-number::after {
+    font-size: var(--font-size-xxs);
+  }
 }
 @media screen and (min-width: 1200px) {
+  .hero-content-wrapper {
+    max-width: 1200px;
+  }
 }
