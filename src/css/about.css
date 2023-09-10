@@ -9,6 +9,17 @@ html {
 .about_title-label {
     margin-bottom: 12px;
     color: #fcfcfc;
+    width: 463px;
+    height: 257px;
+    top: 326px;
+    left: 616px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    
 }
 .title-label {
     text-align: center;
@@ -118,6 +129,10 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    width: 491px;
+    height: 529px;
+    top: 236px;
+    left: 16px;
 }
 .about_paragraph {
     color: #fcfcfc;
@@ -126,5 +141,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
     width: 264px;
-    margin: 0;
+    margin: 0;   
+    width: 463px;
+    height: 257px;
+    top: 326px;
+    left: 616px;
 }
