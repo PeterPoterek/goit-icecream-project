@@ -13,9 +13,14 @@
   --bg-green: #84a178;
 
   /* fonts */
+  --font-size-xxs: 8px;
+  --font-size-xs: 12px;
   --font-size-small: 14px;
   --font-size-normal: 16px;
+  --font-size-medium: 26px;
+  --font-size-heading-xs: 28px;
   --font-size-heading-small: 30px;
+  --font-size-heading-highlight: 34px;
   --font-size-large: 36px;
   --font-size-xl: 38px;
   --font-size-xxl-small: 46px;
