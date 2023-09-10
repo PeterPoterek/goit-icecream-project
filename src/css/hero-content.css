@@ -224,11 +224,13 @@
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 150px;
   }
   .hero-content-wrapper {
     max-width: 480px;
     bottom: 0;
+  }
+  .hero-button-container {
+    padding-bottom: 150px;
   }
   .hero-content-image-wrapper {
     position: absolute;
@@ -237,10 +239,10 @@
   }
 
   .hero-content-dots-mobile-left {
-    left: 80px;
+    left: -80px;
   }
   .hero-content-dots-mobile-right {
-    left: 130px;
+    right: 0;
   }
   .hero-content-dots-480 {
     display: block;
@@ -266,6 +268,7 @@
   }
   .hero-button-container {
     padding-left: 0;
+    padding-bottom: 12px;
   }
   .hero-content-description {
     display: flex;
