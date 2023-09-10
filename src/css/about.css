@@ -1,3 +1,6 @@
+.about {
+    padding bottom: 60px;
+}
 .about_title-label {
     color: #fcfcfc;
     width: 376px;
@@ -11,9 +14,7 @@
     letter-spacing: 0.04em;
     text-align: center;    
 }
-.about {
-    padding bottom: 60px;
-}
+
 .h1 {
     color: #FCFCFC;
     width: 481px;
@@ -32,7 +33,7 @@
     top: 236px;
     left: 16px;
     border-radius: 250px;
-    padding bottom: 60px;
+    display: flex;
 }
 .about_image-wrap {
     width: 490px;
