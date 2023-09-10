@@ -12,19 +12,19 @@
 }
 .hero-content-title {
   /* dekstop */
-  font-size: var(--font-size-xl);
+  /* font-size: var(--font-size-xl);
 
   letter-spacing: 1.52px;
   line-height: 1.26316;
 
   padding-left: 20px;
-  max-width: 367px;
+  max-width: 367px; */
 
   /* dekstop */
 
   font-size: var(--font-size-medium);
   letter-spacing: 1.04px;
-  width: 247px;
+  max-width: 247px;
 }
 .hero-content-title-highlighted {
   font-size: var(--font-size-heading-highlight);
