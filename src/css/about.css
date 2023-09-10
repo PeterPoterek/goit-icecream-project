@@ -1,7 +1,12 @@
 *, :before, :after {
     box-sizing: border-box;
 }
-.about__title-label {
+html {
+    tab-size: 4;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
+.about_title-label {
     margin-bottom: 12px;
     color: #fcfcfc;
 }
@@ -12,9 +17,6 @@
     font-weight: 700;
     line-height: 1.23;
 }
-.about__title-label {
-    color: #fcfcfc;
-}
 .about__title {
     max-width: 200px;
     color: #fcfcfc;
@@ -24,9 +26,18 @@
 .title {
     text-align: center;
     text-transform: uppercase;
-    font-family: Seymour One,sans-serif;
+    font-family: Seymour One, sans-serif;
     font-size: 3rem;
     line-height: 1.27;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+h1, h2, h3, h4, h5, p, ul {
+    margin: 0;
+    padding: 0;
 }
 .about__content {
     flex-wrap: wrap;
@@ -92,23 +103,28 @@ svg:not(:root) {
     line-height: 1.29;
     display: inline-block;
 }
-.about__image {
-    width: 100%;
+.about_image-wrap {
+    width: 70;
+    height: 69;
     border-radius: 1038.58px;
     margin-top: 21.82px;
     box-shadow: 0 -21.82px #f8d24e;
+    max-width: 100%;
+    display: block;
 }
 img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
     max-width: 100%;
     height: auto;
     display: block;
 }
-.about__paragraph {
+.about_paragraph {
     color: #fcfcfc;
     font-size: 1.2rem;
-}
-
-h1, h2, h3, h4, h5, p, ul {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    width: 264px;
     margin: 0;
-    padding: 0;
 }
