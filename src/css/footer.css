@@ -43,7 +43,7 @@
 }
 
 .footer-social-item1 svg {
-    fill: var(rivergrass);
+    fill: var(--rivergrass);
     background-color: var(--yellow);
     border-radius: 50%;
     display: flex;
@@ -113,7 +113,7 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
     .footer-title-line1 {
-        font-size: 26px;
+        font-size: var(--font-size-medium);
         letter-spacing: 1.04px;
         max-width: 352px;
     }
@@ -207,7 +207,7 @@
     }
 
     .footer-copyright {
-        font-size: 12px;
+        font-size: var(--font-size-xs);
         letter-spacing: 0.24px;
     }
 
