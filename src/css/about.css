@@ -9,6 +9,12 @@ html {
 .about_title-label {
     margin-bottom: 12px;
     color: #fcfcfc;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin: 0 0 72px;
 }
 .title-label {
     text-align: center;
