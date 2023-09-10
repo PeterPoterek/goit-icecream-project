@@ -45,8 +45,8 @@
     color: #fcfcfc;
     top: 445px;
     left: 616px;
-    padding-bottom: 54px;
   }
+  
   .about_btn btn btn--primary {
     border-radius: 10px;
     color: #f8d24e;
@@ -56,4 +56,11 @@
   .about_icon-button-arrow {
     top: 15px;
     left: 117px;
+  }
+  @media screen and (min-width: 768px) {
+
+  }
+  
+  @media screen and (min-width: 1200px) {
+   
   }
