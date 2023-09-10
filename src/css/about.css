@@ -1,157 +1,75 @@
 *, :before, :after {
     box-sizing: border-box;
 }
-html {
-    tab-size: 4;
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.15;
-}
 .about_title-label {
-    margin-bottom: 12px;
     color: #fcfcfc;
-    width: 463px;
-    height: 257px;
-    top: 326px;
-    left: 616px;
+    width: 376px;
+    height: 37px;
+    top: 60px;
+    left: 412px;
+    line-height: 36,57px;
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0.04em;
+    text-align: center;    
+}
+.h1 {
+    color: #FCFCFC;
+    width: 481px;
+    height: 45px;
+    top: 109px;
+    left: 360px;
+    font-family: Seymour One;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
     text-align: center;
-    
 }
-.title-label {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    font-weight: 700;
-    line-height: 1.23;
-}
-.about__title {
-    max-width: 200px;
-    color: #fcfcfc;
-    margin: 0 auto 35px;
-}
-
-.title {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Seymour One, sans-serif;
-    font-size: 3rem;
-    line-height: 1.27;
-  }
-  .container {
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-h1, h2, h3, h4, h5, p, ul {
-    margin: 0;
-    padding: 0;
-}
-.about__content {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    display: flex;
-}
-.about__btn-text-wrap {
-    max-width: 380px;
-    padding-left: 0;
-    padding-right: 0;
-}
-.about__btn-text-wrap {
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 14px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    color: #fcfcfc;
-}
-.about__btn {
-    align-items: center;
-    gap: 5px;
-    display: flex;
-}
-.btn--primary {
-    background-color: #f8d24e;
-    transition: color .25s cubic-bezier(.4,0,.2,1), background-color .25s cubic-bezier(.4,0,.2,1);
-}
-.btn {
-    color: #131313;
-    cursor: pointer;
-    border: 2px solid rgba(0,0,0,0);
-    border-radius: 1rem;
-    outline: none;
-    padding: 10px 32px;
-    font-family: Montserrat,sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1.29;
-    display: inline-block;
-}
-.btn--primary svg {
-    fill: currentColor;
-    pointer-events: none;
-}
-svg:not(:root) {
-    overflow-clip-margin: content-box;
-    overflow: hidden;
-}
-.btn {
-    color: #131313;
-    cursor: pointer;
-    border: 2px solid rgba(0,0,0,0);
-    border-radius: 1rem;
-    outline: none;
-    padding: 10px 32px;
-    font-family: Montserrat,sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1.29;
-    display: inline-block;
+.about_content {
+    color: #F8D24E;
+    width: 490px;
+    height: 490px;
+    top: 236px;
+    left: 16px;
+    border-radius: 250px;
 }
 .about_image-wrap {
-    width: 279;
-    height: 278;
-    border-radius: 140px;
-    margin-top: 21.82px;
-    box-shadow: 0 -21.82px #f8d24e;
-    max-width: 100%;
-    display: block;
-}
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    max-width: 100%;
-    height: auto;
-    display: block;
     width: 490px;
     height: 490px;
     top: 275px;
     left: 17px;
+    border-radius: 140px
+    }
+.about_btn-text-wrap {}
+.about_text-wrap {
+    width: 463px;
+    height: 257px;
+    top: 326px;
+    left: 616px;
 }
 .about_paragraph {
-    color: #fcfcfc;
-    font-size: 1.2rem;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    width: 264px;
-    margin: 0;   
+    color: #FCFCFC;
     width: 463px;
-    height: 257px;
-    top: 326px;
+    height: 138px;
+    top: 445px;
     left: 616px;
 }
-.about_text-wrap {    
-    width: 264px;
-    margin: 0;   
-    width: 463px;
-    height: 257px;
-    top: 326px;
-    left: 616px;
+.about_btn btn btn--primary {
+    width: 164px;
+    height: 42px;
+    border-radius: 10px;
+    color: #F8D24E;
+    width: 79px;
+    height: 18px;
+    top: 12px;
+    left: 34px;
+}
+.about_icon-button-arrow {
+    width: 12px;
+    height: 12px;
+    top: 15px;
+    left: 117px;
 }
