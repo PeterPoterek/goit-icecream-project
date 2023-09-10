@@ -5,6 +5,7 @@
     font-style: normal;
     background-color: #84a178;
     padding-bottom: 20px;
+    margin-top: 60px;
 }
 
 .f-container {
@@ -41,19 +42,21 @@
     padding-bottom: 20px;
 }
 
-.footer-social-item1 {
+.footer-social-item1 svg {
     fill: #84a178;
     background-color: #f8d24e;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
-.footer-social-item1:focus {
+.footer-social-item1 svg:focus {
     fill: #fcfcfc;
 }
 
-.footer-social-item1:hover {
+.footer-social-item1 svg:hover {
     fill: #fcfcfc;
 }
 
@@ -152,7 +155,9 @@
 
     .footer {
         padding-bottom: 12px;
+        margin-top: 40px;
     }
+
 }
 
 /* Desktop */
@@ -208,5 +213,9 @@
 
     .footer-social {
         gap: 30px;
+    }
+
+    .footer{
+        margin-top: 120px;
     }
 }
