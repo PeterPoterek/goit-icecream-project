@@ -1,7 +1,6 @@
 .about_title-label {
     color: #fcfcfc;
     width: 376px;
-    height: 37px;
     top: 60px;
     left: 412px;
     line-height: 36,57px;
@@ -15,7 +14,6 @@
 .h1 {
     color: #FCFCFC;
     width: 481px;
-    height: 45px;
     top: 109px;
     left: 360px;
     font-family: Seymour One;
@@ -28,7 +26,6 @@
 .about_content {
     color: #F8D24E;
     width: 490px;
-    height: 490px;
     top: 236px;
     left: 16px;
     border-radius: 250px;
@@ -36,7 +33,6 @@
 }
 .about_image-wrap {
     width: 490px;
-    height: 490px;
     top: 275px;
     left: 17px;
     border-radius: 140px
@@ -44,30 +40,25 @@
 .about_btn-text-wrap {}
 .about_text-wrap {
     width: 463px;
-    height: 257px;
     top: 326px;
     left: 616px;
 }
 .about_paragraph {
     color: #FCFCFC;
     width: 463px;
-    height: 138px;
     top: 445px;
     left: 616px;
 }
 .about_btn btn btn--primary {
     width: 164px;
-    height: 42px;
     border-radius: 10px;
     color: #F8D24E;
     width: 79px;
-    height: 18px;
     top: 12px;
     left: 34px;
 }
 .about_icon-button-arrow {
     width: 12px;
-    height: 12px;
     top: 15px;
     left: 117px;
 }
