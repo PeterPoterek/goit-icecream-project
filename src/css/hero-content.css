@@ -99,14 +99,7 @@
 .hero-content-button-underline:focus {
   color: var(--dark-green);
 }
-.hero-content-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
-  gap: 24px;
-  max-width: 200px;
-}
 .hero-content-text {
   color: var(--white);
   font-size: var(--font-size-small);
@@ -260,6 +253,17 @@
     gap: 16px;
 
     max-width: 441px;
+  }
+  .hero-content-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    max-width: 200px;
+  }
+  .hero-content-text {
+    font-size: var(--font-size-xs);
+    padding-bottom: 29px;
   }
   .hero-content-ice-spinning {
     width: 152px;
