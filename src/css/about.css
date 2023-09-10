@@ -1,5 +1,5 @@
 .about {
-    padding bottom: 60px;
+    padding-bottom: 60px;
 }
 .about_title-label {
     color: #fcfcfc;
@@ -41,7 +41,11 @@
     left: 17px;
     border-radius: 140px
     }
-.about_btn-text-wrap {}
+.about_btn-text-wrap {
+    width: 463px;
+    top: 326px;
+    left: 616px;
+    }
 .about_text-wrap {
     width: 463px;
     top: 326px;
