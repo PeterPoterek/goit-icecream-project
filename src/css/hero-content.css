@@ -133,8 +133,7 @@
   justify-content: center;
   align-items: center;
 }
-.hero-content-image {
-}
+
 .hero-content-dots-mobile-left {
   position: absolute;
   z-index: -1;
@@ -149,6 +148,12 @@
   bottom: 0;
 }
 .hero-content-dots-480 {
+  display: none;
+}
+.hero-content-dots-tablet-l {
+  display: none;
+}
+.hero-content-dots-tablet-r {
   display: none;
 }
 @keyframes pulseShadow {
@@ -313,6 +318,22 @@
   }
   .hero-content-dots-mobile-right {
     display: none;
+  }
+  .hero-content-dots-tablet-l {
+    display: block;
+    position: absolute;
+
+    z-index: -1;
+    bottom: 0;
+    left: -440px;
+  }
+  .hero-content-dots-tablet-r {
+    display: block;
+    position: absolute;
+
+    z-index: -1;
+    bottom: 0;
+    right: 0;
   }
   .hero-content-statistics-container {
     display: flex;
