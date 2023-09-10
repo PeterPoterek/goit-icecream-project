@@ -1,1 +1,114 @@
-/*ziana*/
+*, :before, :after {
+    box-sizing: border-box;
+}
+.about__title-label {
+    margin-bottom: 12px;
+    color: #fcfcfc;
+}
+.title-label {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.23;
+}
+.about__title-label {
+    color: #fcfcfc;
+}
+.about__title {
+    max-width: 200px;
+    color: #fcfcfc;
+    margin: 0 auto 35px;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Seymour One,sans-serif;
+    font-size: 3rem;
+    line-height: 1.27;
+}
+.about__content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    display: flex;
+}
+.about__btn-text-wrap {
+    max-width: 380px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.about__btn-text-wrap {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    color: #fcfcfc;
+}
+.about__btn {
+    align-items: center;
+    gap: 5px;
+    display: flex;
+}
+.btn--primary {
+    background-color: #f8d24e;
+    transition: color .25s cubic-bezier(.4,0,.2,1), background-color .25s cubic-bezier(.4,0,.2,1);
+}
+.btn {
+    color: #131313;
+    cursor: pointer;
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 1rem;
+    outline: none;
+    padding: 10px 32px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.29;
+    display: inline-block;
+}
+.btn--primary svg {
+    fill: currentColor;
+    pointer-events: none;
+}
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+.btn {
+    color: #131313;
+    cursor: pointer;
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 1rem;
+    outline: none;
+    padding: 10px 32px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.29;
+    display: inline-block;
+}
+.about__image {
+    width: 100%;
+    border-radius: 1038.58px;
+    margin-top: 21.82px;
+    box-shadow: 0 -21.82px #f8d24e;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.about__paragraph {
+    color: #fcfcfc;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, p, ul {
+    margin: 0;
+    padding: 0;
+}

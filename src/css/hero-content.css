@@ -121,13 +121,6 @@
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-content-image-wrapper {
-  /* desktop */
-  /* position: absolute;
-  top: 0;
-  right: 86px;
-
-  display: flex; */
-  /* desktop */
   position: relative;
   display: flex;
   justify-content: center;

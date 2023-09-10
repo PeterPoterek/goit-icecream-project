@@ -11,11 +11,6 @@
     }
 }
 
-
-.h-hidden {
-    display: none;
-}
-
 #advantages ul {
     display: flex;
     flex-direction: column;
