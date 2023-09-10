@@ -129,10 +129,6 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    width: 491px;
-    height: 529px;
-    top: 236px;
-    left: 16px;
 }
 .about_paragraph {
     color: #fcfcfc;
@@ -140,12 +136,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    width: 264px;
-    margin: 0;   
-    width: 463px;
-    height: 257px;
-    top: 326px;
-    left: 616px;
 }
 .about_text-wrap {    
     width: 264px;
