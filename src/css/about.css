@@ -115,6 +115,11 @@ img {
     display: block;
 }
 .about_paragraph {
-    color: #fcfcfc;
     font-size: 1.2rem;
+    color: var(--color-contrast-bright);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    width: 264px;
+    margin: 0;
 }
