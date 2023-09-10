@@ -115,9 +115,9 @@ svg:not(:root) {
     display: inline-block;
 }
 .about_image-wrap {
-    width: 270;
-    height: 280;
-    border-radius: 1038.58px;
+    width: 279;
+    height: 278;
+    border-radius: 140px;
     margin-top: 21.82px;
     box-shadow: 0 -21.82px #f8d24e;
     max-width: 100%;
