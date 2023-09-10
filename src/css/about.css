@@ -6,7 +6,6 @@
     top: 60px;
     left: 412px;
     line-height: 36, 57px;
-    font-family: Montserrat;
     font-size: 30px;
     font-weight: 800;
     line-height: 37px;
@@ -18,7 +17,6 @@
     color: #fcfcfc;
     top: 109px;
     left: 360px;
-    font-family: Seymour One;
     font-size: 36px;
     font-weight: 400;
     line-height: 45px;
@@ -59,9 +57,103 @@
     left: 117px;
   }
   @media screen and (min-width: 768px) {
-
+    .about_title-label {
+        color: #fcfcfc;
+        top: 60px;
+        left: 412px;
+        line-height: 36, 57px;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 37px;
+        letter-spacing: 0.04em;
+        text-align: center;
+        padding-bottom: 12px;
+      }
+      .h1 {
+        color: #fcfcfc;
+        top: 109px;
+        left: 360px;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        padding-bottom: 82px;
+      }
+      .about_content {
+        color: #f8d24e;
+        max-width: 1060px;
+        border-radius: 250px;
+        display: flex;
+        gap: 109px;
+        padding-right: 190px;
+      }
+      .about_image-wrap {
+        border-radius: 140px;
+      }
+      .about_btn-text-wrap {
+        padding-top: 172px;
+      }
+      .about_text-wrap {
+      }
+      .about_paragraph {
+        color: #fcfcfc;
+        top: 445px;
+        left: 616px;
+      }
+      
+      .about_btn btn btn--primary {
+        border-radius: 10px;
+        color: #f8d24e;
+        top: 12px;
+        left: 34px;
+      }
+      .about_icon-button-arrow {
+        top: 15px;
+        left: 117px;
+      }
   }
   
   @media screen and (min-width: 1200px) {
-   
+    .about_title-label {
+        width: 210px;
+        top: 61px;
+        left: 55px;
+        color: #fcfcfc;
+        }
+    .h1 {
+        width: 210px;
+        top: 61px;
+        left: 55px;
+        color: #fcfcfc;
+        }
+    .about_content {
+        width: 210px;
+        top: 61px;
+        left: 55px;
+        color: #f8d24e;
+        }
+    .about_image-wrap {
+        width: 210px;
+        top: 61px;
+        left: 55px;
+        }
+    .about_paragraph {
+        width: 210px;
+        top: 61px;
+        left: 55px;
+        color: #fcfcfc;
+        }  
+    .about_btn btn btn--primary {
+        width: 210px;
+        top: 61px;
+        left: 55px;
+        color: #f8d24e;
+        }
+    .about_icon-button-arrow {
+        width: 210px;
+        top: 61px;
+        left: 55px;
+        color: black;
+        }
   }
