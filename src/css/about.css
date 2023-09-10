@@ -26,10 +26,15 @@ html {
 .title {
     text-align: center;
     text-transform: uppercase;
-    font-family: Seymour One,sans-serif;
+    font-family: Seymour One, sans-serif;
     font-size: 3rem;
     line-height: 1.27;
-}
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
 h1, h2, h3, h4, h5, p, ul {
     margin: 0;
     padding: 0;
@@ -122,4 +127,77 @@ img {
     letter-spacing: 0.32px;
     width: 264px;
     margin: 0;
+}
+.btn--underlined {
+    color: #f8d24e;
+    text-decoration: underline;
+    transition: color .25s cubic-bezier(.4,0,.2,1)
+}
+
+.btn--underlined:hover {
+    color: #0a8817
+}
+
+.btn--underlined:focus {
+    color: #fcfcfc
+}
+
+.btn--underlined:disabled {
+    color: #ababab
+}
+
+.btn--primary {
+    background-color: #f8d24e;
+    transition: color .25s cubic-bezier(.4,0,.2,1),background-color .25s cubic-bezier(.4,0,.2,1)
+}
+
+.btn--primary:hover {
+    background-color: #0a8817
+}
+
+.btn--primary:focus {
+    color: #fcfcfc;
+    background-color: #0a8817
+}
+
+.btn--primary:disabled {
+    background-color: #ababab
+}
+
+.btn--primary svg {
+    fill: currentColor;
+    pointer-events: none
+}
+
+.btn--border {
+    background-color: rgba(0,0,0,0);
+    border-color: #f8d24e;
+    transition: color .25s cubic-bezier(.4,0,.2,1),border-color .25s cubic-bezier(.4,0,.2,1)
+}
+
+.btn--border:hover {
+    border-color: #0a8817
+}
+
+.btn--border:focus {
+    color: #fcfcfc;
+    border-color: #0a8817
+}
+
+.btn--border:disabled {
+    border-color: #ababab
+}
+
+.btn--border svg {
+    fill: currentColor;
+    pointer-events: none
+}
+
+.page-header {
+    z-index: 10;
+    width: 100%;
+    padding: 12px 0;
+    position: absolute;
+    top: 0;
+    left: 0
 }
