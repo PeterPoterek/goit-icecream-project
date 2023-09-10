@@ -1,7 +1,7 @@
 *, :before, :after {
     box-sizing: border-box;
 }
-.about__title-label {
+.about_title-label {
     margin-bottom: 12px;
     color: #fcfcfc;
 }
@@ -11,9 +11,6 @@
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.23;
-}
-.about__title-label {
-    color: #fcfcfc;
 }
 .about__title {
     max-width: 200px;
@@ -92,7 +89,7 @@ svg:not(:root) {
     line-height: 1.29;
     display: inline-block;
 }
-.about__image {
+.about_image-wrap {
     width: 100%;
     border-radius: 1038.58px;
     margin-top: 21.82px;
@@ -103,7 +100,7 @@ img {
     height: auto;
     display: block;
 }
-.about__paragraph {
+.about_paragraph {
     color: #fcfcfc;
     font-size: 1.2rem;
 }
