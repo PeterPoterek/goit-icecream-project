@@ -143,6 +143,7 @@
   position: absolute;
   z-index: -1;
   right: 0;
+  left: auto;
   bottom: 0;
 }
 .hero-content-dots-480 {
@@ -233,10 +234,10 @@
     padding-right: 20px;
   }
   .hero-content-dots-mobile-left {
-    display: none;
+    left: -80px;
   }
   .hero-content-dots-mobile-right {
-    display: none;
+    left: 130px;
   }
   .hero-content-dots-480 {
     display: block;
