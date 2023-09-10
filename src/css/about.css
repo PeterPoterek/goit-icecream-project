@@ -1,23 +1,21 @@
 .about {
     padding-bottom: 60px;
-}
-.about_title-label {
+  }
+  .about_title-label {
     color: #fcfcfc;
-    width: 376px;
     top: 60px;
     left: 412px;
-    line-height: 36,57px;
+    line-height: 36, 57px;
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0.04em;
-    text-align: center;    
-}
-
-.h1 {
-    color: #FCFCFC;
-    width: 481px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  .h1 {
+    color: #fcfcfc;
     top: 109px;
     left: 360px;
     font-family: Seymour One;
@@ -26,47 +24,36 @@
     line-height: 45px;
     letter-spacing: 0.06em;
     text-align: center;
-}
-.about_content {
-    color: #F8D24E;
-    width: 490px;
-    top: 236px;
-    left: 16px;
+    padding-bottom: 82px;
+  }
+  .about_content {
+    color: #f8d24e;
+    max-width: 1060px;
     border-radius: 250px;
     display: flex;
-}
-.about_image-wrap {
-    width: 490px;
-    top: 275px;
-    left: 17px;
-    border-radius: 140px
-    }
-.about_btn-text-wrap {
-    width: 463px;
-    top: 326px;
-    left: 616px;
-    }
-.about_text-wrap {
-    width: 463px;
-    top: 326px;
-    left: 616px;
-}
-.about_paragraph {
-    color: #FCFCFC;
-    width: 463px;
+    gap: 109px;
+    padding-right: 109px;
+  }
+  .about_image-wrap {
+    border-radius: 140px;
+  }
+  .about_btn-text-wrap {
+  }
+  .about_text-wrap {
+  }
+  .about_paragraph {
+    color: #fcfcfc;
     top: 445px;
     left: 616px;
-}
-.about_btn btn btn--primary {
-    width: 164px;
+    padding-bottom: 54px;
+  }
+  .about_btn btn btn--primary {
     border-radius: 10px;
-    color: #F8D24E;
-    width: 79px;
+    color: #f8d24e;
     top: 12px;
     left: 34px;
-}
-.about_icon-button-arrow {
-    width: 12px;
+  }
+  .about_icon-button-arrow {
     top: 15px;
     left: 117px;
-}
+  }
