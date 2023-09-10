@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .products-bg {
   background-color: white;
   background-image: url('../images/background/background-mobile-1x.png');
@@ -9,6 +10,9 @@
 }
 .products-label {
   font-family: 'Montserrat', sans-serif;
+=======
+.products-label {
+>>>>>>> Stashed changes
   font-size: 18px;
   font-weight: 800;
   display: flex;
@@ -17,7 +21,11 @@
 }
 .products-header {
   font-family: 'SeymourOne', sans-serif;
+<<<<<<< Updated upstream
   font-size: 30px;
+=======
+  font-size: var(--font-size-heading-small);
+>>>>>>> Stashed changes
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -45,7 +53,11 @@
   margin-bottom: 0;
 }
 .products-item-green {
+<<<<<<< Updated upstream
   background-color: #aec6a5;
+=======
+  background-color: var(--green-shade);
+>>>>>>> Stashed changes
 }
 .products-item-green::before {
   content: '';
@@ -68,7 +80,11 @@
   background-size: cover;
 }
 .products-item-yellow {
+<<<<<<< Updated upstream
   background-color: #efd478;
+=======
+  background-color: var(--yellow-shade);
+>>>>>>> Stashed changes
 }
 .products-item-yellow::before {
   content: '';
@@ -91,7 +107,11 @@
   background-size: cover;
 }
 .products-item-brown {
+<<<<<<< Updated upstream
   background-color: #d6936d;
+=======
+  background-color: var(--dark-orange);
+>>>>>>> Stashed changes
 }
 .products-item-brown::before {
   content: '';
