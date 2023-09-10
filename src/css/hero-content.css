@@ -59,13 +59,6 @@
   animation: plateSpin 20s linear infinite;
 }
 .hero-content-description {
-  display: flex;
-  justify-content: space-between;
-  justify-content: center;
-  gap: 16px;
-
-  max-width: 441px;
-
   display: none;
 }
 .hero-content-button-border {
@@ -185,12 +178,10 @@
   animation: pulseShadow 2s ease-in-out infinite, onPageLoad 0.5s linear;
   animation-fill-mode: forwards;
 }
+.hero-content-image-tablet {
+  display: none;
+}
 .hero-content-statistics-container {
-  display: flex;
-  flex-direction: column;
-
-  gap: 37px;
-
   display: none;
 }
 .hero-content-statistics-number {
@@ -249,6 +240,32 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .hero-content-image {
+    display: none;
+  }
+  .hero-content-image-tablet {
+    display: block;
+  }
+  .hero-content-dots-mobile-left {
+    display: none;
+  }
+  .hero-content-dots-mobile-right {
+    display: none;
+  }
+  .hero-content-statistics-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 37px;
+  }
+  .hero-content-description {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 16px;
+
+    max-width: 441px;
+  }
 }
 @media screen and (min-width: 1200px) {
 }
