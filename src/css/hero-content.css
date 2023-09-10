@@ -279,6 +279,9 @@
 
     max-width: 200px;
   }
+  .hero-content-description {
+    max-width: 349px;
+  }
   .hero-content-text {
     font-size: var(--font-size-xs);
     padding-bottom: 29px;
