@@ -145,6 +145,9 @@
   right: 0;
   bottom: 0;
 }
+.hero-content-dots-480 {
+  display: none;
+}
 @keyframes pulseShadow {
   0% {
     filter: drop-shadow(0 0 100px rgba(255, 255, 255, 0.3));
@@ -230,9 +233,15 @@
     padding-right: 20px;
   }
   .hero-content-dots-mobile-left {
-    right: -100px;
+    display: none;
   }
   .hero-content-dots-mobile-right {
+    display: none;
+  }
+  .hero-content-dots-480 {
+    display: block;
+    position: absolute;
+    bottom: 0;
     left: 0;
   }
 }
