@@ -3,7 +3,7 @@
 .footer {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    background-color: #84a178;
+    background-color: var(--rivergrass);
     padding-bottom: 20px;
     margin-top: 60px;
 }
@@ -19,7 +19,7 @@
 
 /* dane do kontaktu*/
 .footer-contacts {
-    color: #131313;
+    color: var(--black-shade);
     text-align: right;
     font-size: 12px;
     font-weight: 700;
@@ -29,7 +29,7 @@
 }
 
 .footer__contact-link {
-    color: #fcfcfc;
+    color: var(--white-shade);
     text-decoration: none;
 }
 
@@ -43,8 +43,8 @@
 }
 
 .footer-social-item1 svg {
-    fill: #84a178;
-    background-color: #f8d24e;
+    fill: var(--rivergrass);
+    background-color: var(--yellow);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -53,11 +53,11 @@
 }
 
 .footer-social-item1 svg:focus {
-    fill: #fcfcfc;
+    fill: var(--white-shade);
 }
 
 .footer-social-item1 svg:hover {
-    fill: #fcfcfc;
+    fill: var(--white-shade);
 }
 
 /* Linia nad prawami autorskimi*/
@@ -69,7 +69,7 @@
 .footer-copyright {
     color: #7a7a7a;
     text-align: center;
-    font-size: 14px;
+    font-size: var(--font-size-small);
     font-weight: 700;
     line-height: 152%;
     max-width: 157px;
@@ -89,7 +89,7 @@
 .footer-title-line1 {
     max-width: 200px;
     display: block;
-    color: #fcfcfc;
+    color: var(--white-shade);
     font-size: 18px;
     font-weight: 700;
     line-height: normal;
@@ -101,7 +101,7 @@
 .footer-tittle-line2 {
     max-width: 200px;
     display: block;
-    color: #fcfcfc;
+    color: var(--white-shade);
     font-size: 34px;
     font-weight: 700;
     line-height: normal;
@@ -113,7 +113,7 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
     .footer-title-line1 {
-        font-size: 26px;
+        font-size: var(--font-size-medium);
         letter-spacing: 1.04px;
         max-width: 352px;
     }
@@ -128,7 +128,7 @@
     }
 
     .footer-contacts {
-        font-size: 14px;
+        font-size: var(--font-size-small);
     }
 
     .footer-right-side {
@@ -144,7 +144,7 @@
 
     .footer-copyright {
         max-width: max-content;
-        font-size: 14px;
+        font-size: var(--font-size-small);
         letter-spacing: 0.28px;
         padding-top: 12px;
     }
@@ -167,15 +167,15 @@
     }
 
     .footer-title-line1 {
-        font-size: 30px;
+        font-size: var(--font-size-heading-small);
         max-width: 100%;
         font-weight: 400;
         letter-spacing: 1.2px;
-        padding-bottom: 14px;
+        padding-bottom: var(--font-size-small);
     }
 
     .footer-tittle-line2 {
-        font-size: 58px;
+        font-size: var(--font-size-xxl);
         font-weight: 700;
         letter-spacing: 3.48px;
         max-width: 100%;
@@ -202,12 +202,12 @@
     }
 
     .footer-contacts {
-        font-size: 16px;
+        font-size: var(--font-size-normal);
         letter-spacing: 0.32px;
     }
 
     .footer-copyright {
-        font-size: 12px;
+        font-size: var(--font-size-xs);
         letter-spacing: 0.24px;
     }
 
