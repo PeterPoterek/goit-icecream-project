@@ -115,6 +115,7 @@ img {
     display: block;
 }
 .about_paragraph {
+    color: #fcfcfc;
     font-size: 1.2rem;
     color: var(--color-contrast-bright);
     font-size: 16px;
