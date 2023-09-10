@@ -230,10 +230,10 @@
     padding-right: 20px;
   }
   .hero-content-dots-mobile-left {
-    left: -80px;
+    right: -100px;
   }
   .hero-content-dots-mobile-right {
-    left: 130px;
+    left: 0;
   }
 }
 @media screen and (min-width: 768px) {
