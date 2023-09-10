@@ -3,7 +3,7 @@
 .footer {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    background-color: #84a178;
+    background-color: var(--rivergrass);
     padding-bottom: 20px;
     margin-top: 60px;
 }
@@ -19,7 +19,7 @@
 
 /* dane do kontaktu*/
 .footer-contacts {
-    color: #131313;
+    color: var(--black-shade);
     text-align: right;
     font-size: 12px;
     font-weight: 700;
@@ -29,7 +29,7 @@
 }
 
 .footer__contact-link {
-    color: #fcfcfc;
+    color: var(--white-shade);
     text-decoration: none;
 }
 
@@ -43,8 +43,8 @@
 }
 
 .footer-social-item1 svg {
-    fill: #84a178;
-    background-color: #f8d24e;
+    fill: var(rivergrass);
+    background-color: var(--yellow);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -53,11 +53,11 @@
 }
 
 .footer-social-item1 svg:focus {
-    fill: #fcfcfc;
+    fill: var(--white-shade);
 }
 
 .footer-social-item1 svg:hover {
-    fill: #fcfcfc;
+    fill: var(--white-shade);
 }
 
 /* Linia nad prawami autorskimi*/
@@ -89,7 +89,7 @@
 .footer-title-line1 {
     max-width: 200px;
     display: block;
-    color: #fcfcfc;
+    color: var(--white-shade);
     font-size: 18px;
     font-weight: 700;
     line-height: normal;
@@ -101,7 +101,7 @@
 .footer-tittle-line2 {
     max-width: 200px;
     display: block;
-    color: #fcfcfc;
+    color: var(--white-shade);
     font-size: 34px;
     font-weight: 700;
     line-height: normal;
