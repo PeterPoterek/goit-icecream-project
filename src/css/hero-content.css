@@ -108,7 +108,7 @@
 .hero-content-image-wrapper {
   position: absolute;
   bottom: 0;
-  right: 86px;
+  right: 0px;
 
   display: flex;
 }
