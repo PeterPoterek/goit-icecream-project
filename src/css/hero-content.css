@@ -365,6 +365,9 @@
     justify-content: center;
     max-width: 200px;
   }
+  .hero-button-container {
+    padding-bottom: 42px;
+  }
   .hero-content-text {
     font-size: var(--font-size-small);
   }
