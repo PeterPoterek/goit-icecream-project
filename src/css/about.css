@@ -3,6 +3,7 @@
 }
 .about__title-label {
     margin-bottom: 12px;
+    color: #fcfcfc;
 }
 .title-label {
     text-align: center;
@@ -46,6 +47,7 @@
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
+    color: #fcfcfc;
 }
 .about__btn {
     align-items: center;
@@ -54,7 +56,7 @@
 }
 .btn--primary {
     background-color: #f8d24e;
-    transition: color .25s cubic-bezier(.4,0,.2,1),background-color .25s cubic-bezier(.4,0,.2,1);
+    transition: color .25s cubic-bezier(.4,0,.2,1), background-color .25s cubic-bezier(.4,0,.2,1);
 }
 .btn {
     color: #131313;
@@ -89,4 +91,15 @@ svg:not(:root) {
     font-weight: 600;
     line-height: 1.29;
     display: inline-block;
+}
+.about__image {
+    width: 100%;
+    border-radius: 1038.58px;
+    margin-top: 21.82px;
+    box-shadow: 0 -21.82px #f8d24e;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
