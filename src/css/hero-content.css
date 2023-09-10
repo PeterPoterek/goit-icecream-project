@@ -218,26 +218,26 @@
 }
 
 @media screen and (min-width: 480px) {
+  .hero-content-section {
+    position: relative;
+
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 150px;
+  }
   .hero-content-wrapper {
     max-width: 480px;
+    bottom: 0;
   }
   .hero-content-image-wrapper {
     position: absolute;
-    top: 90px;
+    bottom: 0;
     right: 0;
   }
-  /* .hero-content-image {
-    width: 218px;
-    height: 267px;
-  } */
-  .hero-content-section {
-    padding-top: 40px;
-    padding-bottom: 150px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+
   .hero-content-dots-mobile-left {
-    left: -80px;
+    left: 80px;
   }
   .hero-content-dots-mobile-right {
     left: 130px;
