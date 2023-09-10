@@ -1,22 +1,20 @@
 .products {
-  padding: 60px 0px;
-}
-.bg-ice {
   background-image: url('../images/background/background-mobile-1x.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
+  padding: 60px 0px;
 }
 
 @media screen and (min-width: 768px) {
-  .bg-ice {
+  .products {
     background-image: url('../images/background/background-tablet-1x.png');
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .bg-ice {
+  .products {
     background-image: url('../images/background/background-desktop-1x.png');
   }
 }
@@ -26,20 +24,20 @@
   (-o-min-device-pixel-ratio: 2/1),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .bg-ice {
+  .products {
     background-image: url('../images/background/background-mobile-2x.png');
     background-position: center top;
     background-repeat: repeat-y;
   }
 
   @media screen and (min-width: 768px) {
-    .bg-ice {
+    .products {
       background-image: url('../images/background/background-tablet-2x.png');
     }
   }
 
   @media screen and (min-width: 1200px) {
-    .bg-ice {
+    .products {
       background-image: url('../images/background/background-desktop-2x.png');
     }
   }
