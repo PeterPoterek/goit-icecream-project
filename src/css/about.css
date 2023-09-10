@@ -5,7 +5,7 @@
     margin-bottom: 12px;
     color: #fcfcfc;
 }
-.about_title-label {
+.title-label {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.8rem;
@@ -24,6 +24,10 @@
     font-family: Seymour One,sans-serif;
     font-size: 3rem;
     line-height: 1.27;
+}
+h1, h2, h3, h4, h5, p, ul {
+    margin: 0;
+    padding: 0;
 }
 .about__content {
     flex-wrap: wrap;
@@ -108,9 +112,4 @@ img {
 .about_paragraph {
     color: #fcfcfc;
     font-size: 1.2rem;
-}
-
-h1, h2, h3, h4, h5, p, ul {
-    margin: 0;
-    padding: 0;
 }
