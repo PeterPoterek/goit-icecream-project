@@ -32,12 +32,13 @@
     border-radius: 250px;
     display: flex;
     gap: 109px;
-    padding-right: 109px;
+    padding-right: 190px;
   }
   .about_image-wrap {
     border-radius: 140px;
   }
   .about_btn-text-wrap {
+    padding-top: 172px;
   }
   .about_text-wrap {
   }
