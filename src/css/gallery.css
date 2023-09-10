@@ -1,9 +1,29 @@
+#gallery {
+    position: relative;
+    bottom: 49px;
+}
+
+@media screen and (min-width: 768px) {
+    #gallery {
+        bottom: 144px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #gallery {
+        bottom: 98px;
+    }
+}
+
 .img-box {
     position: relative;
     width: 440px;
     height: 204px;
+    max-width: 100%;
+    max-height: 100%;
     overflow: hidden;
     border-radius: 8px;
+    margin: 0 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -114,6 +134,8 @@
 
 .img-properites {
     position: absolute;
+    max-width: 100%;
+    max-height: 100%;
     width: 440px;
     height: 204px;
 }

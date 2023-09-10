@@ -73,7 +73,8 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  line-height: 2.55; /* 30.6px */
+  line-height: 2.55;
+  /* 30.6px */
   letter-spacing: 0.64px;
   border-radius: 24px;
   background-color: var(--bg-green, #84a178);
@@ -88,7 +89,8 @@
     height: 138px;
     padding: 43px 109px;
     font-size: var(--font-size-normal, 16px);
-    line-height: 1.86; /* 29.76px */
+    line-height: 1.86;
+    /* 29.76px */
   }
 }
 
@@ -96,7 +98,8 @@
   color: var(--black-shade, #131313);
   font-size: var(--font-size-normal, 16px);
   font-weight: 500;
-  line-height: 1.86; /* 29.76px */
+  line-height: 1.86;
+  /* 29.76px */
 }
 
 .swiper-pagination-bullet {

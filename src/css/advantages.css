@@ -2,12 +2,18 @@
     color: var(--white-shade);
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-bottom: 81px;
+}
+
+@media screen and (min-width: 768px) {
+    #advantages {
+        margin-bottom: 204px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     #advantages {
-        margin-bottom: 60px;
+        margin-bottom: 177px;
     }
 }
 
