@@ -11,6 +11,9 @@
     letter-spacing: 0.04em;
     text-align: center;    
 }
+.about {
+    padding bottom: 60px;
+}
 .h1 {
     color: #FCFCFC;
     width: 481px;
