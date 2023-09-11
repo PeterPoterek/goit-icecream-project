@@ -22,3 +22,24 @@
 
   padding-top: 54px;
 }
+.about-content-image {
+  border-radius: 140px;
+  background: linear-gradient(0deg, rgba(248, 210, 78, 0.7) 0%, rgba(248, 210, 78, 0.7) 100%),
+    #d9d9d9;
+  margin-top: 21.82px;
+  box-shadow: 0 -21.82px #f8d24e;
+}
+.about_text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.about-text {
+  color: var(--white-shade);
+
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.48px;
+  line-height: 21.12px;
+
+  text-align: center;
+}
