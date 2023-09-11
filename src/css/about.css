@@ -30,8 +30,7 @@
   box-shadow: 0 -25.88px #f8d24e;
   border-radius: 165px;
 }
-.about-content-image::before {
-}
+
 .about_text-wrapper {
   display: flex;
   flex-direction: column;
@@ -93,6 +92,17 @@
   .about-content-image {
     width: 330px;
     height: 330px;
+  }
+  .about_text-wrapper {
+    max-width: 334px;
+    gap: 8px;
+    padding-bottom: 32px;
+  }
+  .about-text {
+    text-align: left;
+  }
+  .about_button {
+    margin: 0;
   }
 }
 @media screen and (min-width: 1200px) {
