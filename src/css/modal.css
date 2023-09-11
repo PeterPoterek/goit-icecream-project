@@ -1,12 +1,12 @@
 /* Modals */
 
 #overley {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .backdrop {
@@ -14,8 +14,8 @@
   height: 100%;
   opacity: 1;
   z-index: 1;
-  background: rgba(10,10,10,.5);
-  transition: opacity .25s cubic-bezier(.4,0,.2,1);
+  background: rgba(10, 10, 10, 0.5);
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   position: fixed;
   top: 0;
   left: 0;
@@ -23,24 +23,24 @@
 }
 
 .backdrop.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .backdrop.is-hidden.modal {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .modal {
   width: 280px;
-  background: #fcfcfc;
-  border: 2px solid #f8d24e;
+  background: var(--white-shade);
+  border: 2px solid var(--yellow);
   border-radius: 10px;
   padding: 28px;
-  transition: transform .25s cubic- bezier(.4,0,.2,1);
-    transform: scale(1);
-    z-index: 30;
+  transition: transform 0.25s cubic- bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+  z-index: 30;
 }
 
 @media screen and (min-width: 768px) {
@@ -50,7 +50,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)scale(1);
+    transform: translate(-50%, -50%) scale(1);
   }
 }
 
@@ -62,12 +62,12 @@
 }
 
 .modal-btn {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border: none;
   padding: 0;
   position: absolute;
-  top:8px;
-  right:8px;
+  top: 8px;
+  right: 8px;
 }
 
 .modal__title {
@@ -80,7 +80,7 @@
 .title {
   text-align: center;
   text-decoration: uppercase;
-  font-family: Seymour One,sans-serif;
+  font-family: Seymour One, sans-serif;
   font-size: 3rem;
   line-height: 1.27;
 }
@@ -96,105 +96,107 @@
 /* Buy now modal */
 
 .modal-products-list__item--green::before {
-    background: linear-gradient(rgba(156,190,143,.7),rgba(156,190,143,.7)),#d9d9d9;
-    box-shadow: 0 5.26027px 19.726px rgba(10,136,23,.25);
+  background: linear-gradient(rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7)), #d9d9d9;
+  box-shadow: 0 5.26027px 19.726px rgba(10, 136, 23, 0.25);
 }
 .modal-products-list__item--green::after {
-    background: url(./images/buy-now-modal/ice-cream-buy-now-modal-1x.png) 50%/cover no-repeat;
+  background: url(../images/buy-now-modal/ice-cream-buy-now-modal-1x.png) 50% / cover no-repeat;
 }
 
 .modal-products-list__item--yellow::before {
-    background: linear-gradient(rgba(248,210,78,.7),rgba(248,210,78,.7)),#d9d9d9;
-    box-shadow: 0 5.26027px 19.726px rgba(153,114,23,.25);
+  background: linear-gradient(rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #d9d9d9;
+  box-shadow: 0 5.26027px 19.726px rgba(153, 114, 23, 0.25);
 }
 .modal-products-list__item--yellow::after {
-    background: url(./images/buy-now-modal/ice-coffee-buy-now-modal-1x.png) 50%/cover no-repeat;
+  background: url(../images/buy-now-modal/ice-coffee-buy-now-modal-1x.png) 50% / cover no-repeat;
 }
 
 .modal-products-list__item--brown::before {
-    background: linear-gradient(rgba(213,117,63,.7),rgba(213,117,63,.7)),#d9d9d9;
-    box-shadow: 0 5.26027px 19.726px rgba(0,0,0,.25);
+  background: linear-gradient(rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7)), #d9d9d9;
+  box-shadow: 0 5.26027px 19.726px rgba(0, 0, 0, 0.25);
 }
 .modal-products-list__item--brown::after {
-    background: url(./images/buy-now-modal/milkshake-buy-now-modal-1x.png) 50%/cover no-repeat;
+  background: url(../images/buy-now-modal/milkshake-buy-now-modal-1x.png) 50% / cover no-repeat;
 }
 
 .modal-list_item:after {
-  content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    top: -63px;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: -63px;
 }
 
 .modal-list_item:before {
-  content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    top: -55px;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: -55px;
 }
 
 .modal-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal-form__input-wrapper {
-    margin-bottom: 12px;
-    position: relative;
+  margin-bottom: 12px;
+  position: relative;
 }
 
 .modal-form__label {
-    color: #131313;
-    transform-origin: 0;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    transition: transform .25s cubic-bezier(.4,0,.2,1),font-size .25s cubic-bezier(.4,0,.2,1);
-    position: absolute;
-    top: 8px;
-    left: 12px;
+  color: var(--black-shade);
+  transform-origin: 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    font-size 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 8px;
+  left: 12px;
 }
 
 .modal-form__input {
-    height: 32px;
-    width: 100%;
-    color: #131313;
-    background-color: rgba(248,210,78,.1);
-    border: 1px solid #84a278;
-    border-radius: 10px;
-    padding: 11px 16px;
-    font-size: 1.4rem;
-    line-height: 1.4;
-    display: block;
+  height: 32px;
+  width: 100%;
+  color: var(--black-shade);
+  background-color: rgba(248, 210, 78, 0.1);
+  border: 1px solid var(--rivergrass);
+  border-radius: 10px;
+  padding: 11px 16px;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  display: block;
 }
 
 .modal-form__input-wrapper-text {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .btn {
-    color: #131313;
-    cursor: pointer;
-    border: 2px solid rgba(0,0,0,0);
-    border-radius: 1rem;
-    outline: none;
-    padding: 10px 32px;
-    font-family: Montserrat,sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1.29;
-    display: inline-block;
+  color: var(--black-shade);
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 1rem;
+  outline: none;
+  padding: 10px 32px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.29;
+  display: inline-block;
 }
 
 .btn--primary {
-    background-color: #f8d24e;
-    transition: color .25s cubic-bezier(.4,0,.2,1),background-color .25s cubic-bezier(.4,0,.2,1)
+  background-color: var(--yellow);
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Products modal */
@@ -202,12 +204,12 @@
 .products__link {
   transform-origin: 0;
   cursor: pointer;
-  background-color: rgba(0,0,0,0);
-  border-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
   margin-top: auto;
   transition-property: transform;
-  transition-duration: .25s;
-  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products__link:hover {
@@ -232,7 +234,7 @@
 .title {
   text-align: center;
   text-transform: uppercase;
-  font-family: Seymour One,sans-serif;
+  font-family: Seymour One, sans-serif;
   font-size: 3rem;
   line-height: 1.27;
 }
@@ -246,7 +248,7 @@
 .modal__image {
   width: 131px;
   height: 131px;
-  background: linear-gradient(rgba(156,190,143,.7),rgba(156,190,143,.7)),#d9d9d9;
+  background: linear-gradient(rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7)), #d9d9d9;
   border-radius: 50%;
   margin: 0 auto 25px;
   display: block;
@@ -254,14 +256,14 @@
 }
 
 .modal__image::after {
-  content: "";
+  content: '';
   width: 131px;
   height: 131px;
-  background-image: url(./images/products/products-modal-ice-cream-1x.png);
+  background-image: url(../images/products/products-modal-ice-cream-1x.png);
   border-radius: 50%;
   position: absolute;
   top: -7px;
-  box-shadow: 0 5.26027px 19.726px rgba(10,136,23,.25);
+  box-shadow: 0 5.26027px 19.726px rgba(10, 136, 23, 0.25);
 }
 
 .modal-products-list {
@@ -269,6 +271,12 @@
   gap: 9px;
   margin-bottom: 39px;
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .backdrop {
+    padding: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -315,7 +323,7 @@
 .modal-form {
   flex-direction: column;
   align-items: center;
-  display: flex
+  display: flex;
 }
 
 .modal-form__input-wrapper {
@@ -414,12 +422,6 @@
   flex-direction: column;
   align-items: center;
   display: flex;
-}
-
-@media screen and (min-width: 768px) {
-  .modal__franchise-container {
-
-  }
 }
 
 .modal__franchise-title {
