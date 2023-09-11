@@ -1,25 +1,14 @@
-const btns = document.querySelectorAll("[data-target]");
-const close_btns = document.querySelectorAll(".modal-btn");
-const overley = document.querySelector("#overley");
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+  };
 
-btns.forEach(btn => { 
-    btn.addEventListener('click', () => { 
-        document.querySelector(btn.dataset.target).classList.add("active");
-        overley.classList.add('active');
-    })
-})
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
 
-close_btns.forEach(btn => { 
-    btn.addEventListener('click', () => { 
-        document.querySelector(btn.dataset.target).classList.remove("active");
-        overley.classList.remove('active');
-    })
-})
-
-window.onclick = (e) => {
-    if (e.target == overley) {
-        const modals = document.querySelectorAll(".modal");
-        modals.forEach((modal) => modal.classList.remove("active"));
-        overley.classList.remove('active');
-    }
-};
+  function toggleModal() {
+    refs.modal.classList.toggle('is-hidden');
+  }
+})();
