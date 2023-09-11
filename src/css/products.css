@@ -49,6 +49,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 12px;
+  letter-spacing: -1.2px;
 }
 @media screen and (min-width: 768px) {
   .products-label {
@@ -62,6 +63,20 @@
     font-size: 30px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .products-header {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products-header {
+    font-size: 36px;
+    letter-spacing: 2.16px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .products-header {
     font-size: 34px;
@@ -219,6 +234,7 @@
 @media (min-width: 768px) {
   .products-item-p {
     width: 172px;
+    letter-spacing: 0.56px;
   }
 }
 @media (min-width: 1200px) {
@@ -234,7 +250,6 @@
   border: none;
   margin: 0;
   padding: 0;
-  cursor: pointer;
   outline: none;
   background-color: transparent;
   transition-property: transform;
