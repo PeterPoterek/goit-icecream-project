@@ -75,3 +75,13 @@
 
   margin: 0 auto;
 }
+
+@media screen and (min-width: 480px) {
+  .about-content-wrapper {
+    padding-bottom: 67px;
+  }
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+}
