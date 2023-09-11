@@ -222,19 +222,15 @@
   margin-bottom: 40px;
 }
 @media (min-width: 768px) {
-
   .products-item-h2 {
-
     font-size: 22px;
-  
+  }
 }
 @media (min-width: 1200px) {
-
   .products-item-h2 {
-
     font-size: 30px;
   }
-
+}
 
 .products-item-p {
   margin: 0;
