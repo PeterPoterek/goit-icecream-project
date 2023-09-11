@@ -30,32 +30,24 @@
 }
 .about_image-wrap {
   border-radius: 140px;
-  flex-direction: column;
-  
 }
 .about_btn-text-wrap {
   padding-top: 172px;
-  flex-direction: column;
 }
 .about_text-wrap {
   display: flex;
-  flex-direction: column;
+  text-align: right;
 }
 .about_paragraph {
   color: #fcfcfc;
-  top: 445px;
-  left: 616px;
+  flex-direction: column;
 }
 
 .about_btn btn btn--primary {
   border-radius: 10px;
   color: #f8d24e;
-  top: 12px;
-  left: 34px;
 }
 .about_icon-button-arrow {
-  top: 15px;
-  left: 117px;
 }
 @media screen and (min-width: 768px) {
   
