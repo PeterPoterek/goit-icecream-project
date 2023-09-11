@@ -17,6 +17,12 @@
     }
 }
 
+.advantages-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #advantages ul {
     display: flex;
     flex-direction: column;

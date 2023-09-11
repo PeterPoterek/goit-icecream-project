@@ -15,6 +15,12 @@
     }
 }
 
+.gallery-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .img-box {
     position: relative;
     width: 440px;
