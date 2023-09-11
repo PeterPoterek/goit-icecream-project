@@ -64,15 +64,6 @@
   }
 }
 
-.products-header {
-  font-family: 'SeymourOne', sans-serif;
-  font-size: var(--font-size-heading-small);
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  color: var(--black);
-}
 @media screen and (min-width: 768px) {
   .products-header {
     font-size: 34px;
@@ -268,16 +259,6 @@
 .products-button:hover,
 .products-button:focus {
   transform: scale(1.2);
-}
-@media (min-width: 768px) {
-  .products-button {
-    top: 400px;
-  }
-}
-@media (min-width: 1200px) {
-  .products-button {
-    top: 460px;
-  }
 }
 @media (min-width: 768px) {
   .products-button {
