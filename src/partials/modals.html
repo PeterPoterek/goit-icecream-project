@@ -52,78 +52,13 @@
   </div>
 </div>
 
-<!-- Main body of modal -->
-<div class="backdrop is-hidden" data-target="#modal3" data-target-backdrop>
-  <div class="modal" id="modal3">
-    <button class="close-btn modal-btn" data-target="#modal3">&times;</button>
-    <h3 class="modal__title title">Chololate icecream</h3>
-    <div class="modal__iamge"></div>
-    <img src="./images/products/products-modal-ice-cream-1x.png" alt="ice-cream in a con" />
-    <ul class="modal-products-list">
-      <li class="modal-products-list__item">
-        <span class="modal-products__icons-text">320</span>kcal
-      </li>
-      <li class="modal-products-list__item">
-        <span class="modal-products__icons-text">4g</span>Protein
-      </li>
-      <li class="modal-products-list__item">
-        <span class="modal-products__icons-text">8,2g</span>Fats
-      </li>
-      <li class="modal-products-list__item">
-        <span class="modal-products__icons-text">40,4g</span>Carbs
-      </li>
-    </ul>
-    <p class="modal-products__content">Ingredients</p>
-    <ul class="modal-products-elements">
-      <li class="modal-products-elements__item">Milk<span>100ml</span></li>
-      <li class="modal-products-elements__item">Belgian chocolate<span>20g</span></li>
-      <li class="modal-products-elements__item">Cream<span>150ml</span></li>
-      <li class="modal-products-elements__item">Cocoa powder<span>30g</span></li>
-      <li class="modal-products-elements__item">Sugar<span>40g</span></li>
-      <li class="modal-products-elements__item">Vanilla<span>10g</span></li>
-    </ul>
-    <form name="signup_form" autocomplete="on" validate class="modal-form">
-      <div class="modal-form__input-wrapper">
-        <label class="modal-form__label">Name</label>
-        <input type="text" name="name" required id="name" class="" />
-      </div>
-      <div class="modal-form__input-wrapper">
-        <label for="tel" class="modal-form__label">Phone</label>
-        <input type="number" name="tel" required id="tel" class="" />
-      </div>
-      <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
-        <label for="tel" class="modal-form__label">Comment</label>
-        <textarea
-          type="text"
-          name="comment"
-          id="comment"
-          placeholder="Text input"
-          class=""
-          optional
-        ></textarea>
-      </div>
-      <button class="btn btn--primary modal__btn" type="submit">Submit</button>
-    </form>
-  </div>
-</div>
-
 <!-- Buy now modal -->
 
-<!-- Modal4 -->
-<!-- Button which activates modal -->
-<button class="btn btn-buy" type="button" data-target="#modal4">
-  Buy now
-  <svg width="12" height="12" class="locations_btn-icon">
-    <use href="./images/button-arrow.svg#icon-button-right-arrow"></use>
-  </svg>
-</button>
-
-<!-- Main body of modal -->
-<div class="backdrop is-hidden" data-modal="modal2">
+<div class="backdrop is-hidden" data-modal="modal1">
   <div class="modal">
-    <button type="button" class="close-btn modal-btn" data-target="#modal4">&times;</button>
+    <button data-modal-close="modal1" type="button" class="close-btn modal-btn">&times;</button>
     <h2 class="modal__title title">Buy now</h2>
-    <ul class="modal-list">
+    <!-- <ul class="modal-list">
       <li class="modal-list_item modal-list__item--green">
         <h3>Ice cream</h3>
       </li>
@@ -133,7 +68,7 @@
       <li class="modal-list_item modal-list__item--brown">
         <h3>Milkshake</h3>
       </li>
-    </ul>
+    </ul> -->
     <form class="modal-form" name="modal-form">
       <div class="modal-form__input-wrapper">
         <label for="name" class="modal-form__label">Name</label>
@@ -169,13 +104,9 @@
 
 <!-- How it's made modal-->
 
-<!-- Modal5 -->
-<!-- Button which activates modal -->
-<button class="btn btn-how-its-made" type="button" data-target="#modal5"></button>
-
 <!-- Main body of modal -->
-<div class="backdrop is-hidden" data-target="#modal5" data-target-backdrop>
-  <div class="modal modal__modal5" id="modal5">
+<div class="backdrop is-hidden" data-modal="modal3" data-target-backdrop>
+  <div class="modal modal__modal5">
     <button type="button" class="close-btn modal-btn" data-target="#modal5">&times;</button>
     <h2 class="about-modal__title modal__title title">How it`s made?</h2>
     <video
