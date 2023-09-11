@@ -49,6 +49,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 12px;
+  letter-spacing: -1.2px;
 }
 @media screen and (min-width: 768px) {
   .products-label {
@@ -62,6 +63,7 @@
     font-size: 30px;
   }
 }
+
 .products-header {
   font-family: 'SeymourOne', sans-serif;
   font-size: var(--font-size-heading-small);
@@ -71,6 +73,19 @@
   margin: 0 auto;
   color: var(--black);
 }
+@media screen and (min-width: 768px) {
+  .products-header {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products-header {
+    font-size: 36px;
+    letter-spacing: 2.16px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .products-header {
     font-size: 34px;
@@ -199,7 +214,7 @@
   background-image: url(../images/products/milkshake-products-1x.png);
   background-size: cover;
 }
-.products-item-h2 {
+.products-item-h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -207,15 +222,19 @@
   margin-bottom: 40px;
 }
 @media (min-width: 768px) {
+
   .products-item-h2 {
+
     font-size: 22px;
-  }
+  
 }
 @media (min-width: 1200px) {
+
   .products-item-h2 {
+
     font-size: 30px;
   }
-}
+
 
 .products-item-p {
   margin: 0;
@@ -228,6 +247,7 @@
 @media (min-width: 768px) {
   .products-item-p {
     width: 172px;
+    letter-spacing: 0.56px;
   }
 }
 @media (min-width: 1200px) {
@@ -243,9 +263,25 @@
   border: none;
   margin: 0;
   padding: 0;
-  cursor: pointer;
   outline: none;
   background-color: transparent;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+.products-button:hover,
+.products-button:focus {
+  transform: scale(1.2);
+}
+@media (min-width: 768px) {
+  .products-button {
+    top: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .products-button {
+    top: 460px;
+  }
 }
 @media (min-width: 768px) {
   .products-button {
