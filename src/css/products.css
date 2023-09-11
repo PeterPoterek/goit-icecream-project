@@ -62,15 +62,6 @@
     font-size: 30px;
   }
 }
-.products-header {
-  font-family: 'SeymourOne', sans-serif;
-  font-size: var(--font-size-heading-small);
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  color: var(--black);
-}
 @media screen and (min-width: 768px) {
   .products-header {
     font-size: 34px;
@@ -199,7 +190,7 @@
   background-image: url(../images/products/milkshake-products-1x.png);
   background-size: cover;
 }
-.products-item-h2 {
+.products-item-h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -246,6 +237,13 @@
   cursor: pointer;
   outline: none;
   background-color: transparent;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+.products-button:hover,
+.products-button:focus {
+  transform: scale(1.2);
 }
 @media (min-width: 768px) {
   .products-button {
