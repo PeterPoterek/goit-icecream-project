@@ -1,7 +1,17 @@
-<!-- Buy Products Modal -->
-<div class="backdrop is-hidden" data-modal="modal2">
-  <div class="modal" id="modal2">
-    <button data-modal-close="modal2" class="clopse-btn modal-btn">&times;</button>
+<!-- Products modals -->
+
+<!-- Modal1 -->
+<!-- Button which activates modal -->
+<button data-target="#modal1" type="button" class="products__link">
+  <svg width="12" height="12" class="locations_btn-icon">
+    <use href="./images/icons.svg#icon-arrow"></use>
+  </svg>
+</button>
+
+<!-- Main body of modal -->
+<div class="backdrop" data-target="#modal1" data-target-backdrop>
+  <div class="modal" id="modal1">
+    <button class="clopse-btn modal-btn" data-target="#modal1">&times;</button>
     <h2 class="modal__title title">Chololate icecream</h2>
     <div class="modal__iamge"></div>
     <ul class="modal-products-list">
@@ -52,13 +62,149 @@
   </div>
 </div>
 
+<!-- Modal2 -->
+<!-- Button which activates modal -->
+<button data-target="#modal2" type="button" class="products__link">
+  <svg width="12" height="12" class="locations_btn-icon">
+    <use href="./images/icons.svg#icon-arrow"></use>
+  </svg>
+</button>
+
+<!-- Main body of modal -->
+<div class="backdrop" data-target="#modal2" data-target-backdrop>
+  <div class="modal" id="modal2">
+    <button class="close-btn modal-btn" data-target="#modal2">&times;</button>
+    <h3 class="modal__title title">Chololate icecream</h3>
+    <div class="modal__iamge"></div>
+    <img src="./images/products/products-modal-ice-cream-1x.png" alt="ice-cream in a con" />
+    <ul class="modal-products-list">
+      <li class="modal-products-list__item">
+        <span class="modal-products__icons-text">320</span>kcal
+      </li>
+      <li class="modal-products-list__item">
+        <span class="modal-products__icons-text">4g</span>Protein
+      </li>
+      <li class="modal-products-list__item">
+        <span class="modal-products__icons-text">8,2g</span>Fats
+      </li>
+      <li class="modal-products-list__item">
+        <span class="modal-products__icons-text">40,4g</span>Carbs
+      </li>
+    </ul>
+    <p class="modal-products__content">Ingredients</p>
+    <ul class="modal-products-elements">
+      <li class="modal-products-elements__item">Milk<span>100ml</span></li>
+      <li class="modal-products-elements__item">Belgian chocolate<span>20g</span></li>
+      <li class="modal-products-elements__item">Cream<span>150ml</span></li>
+      <li class="modal-products-elements__item">Cocoa powder<span>30g</span></li>
+      <li class="modal-products-elements__item">Sugar<span>40g</span></li>
+      <li class="modal-products-elements__item">Vanilla<span>10g</span></li>
+    </ul>
+    <form name="signup_form" autocomplete="on" validate class="modal-form">
+      <div class="modal-form__input-wrapper">
+        <label class="modal-form__label">Name</label>
+        <input type="text" name="name" required id="name" class="" />
+      </div>
+      <div class="modal-form__input-wrapper">
+        <label for="tel" class="modal-form__label">Phone</label>
+        <input type="number" name="tel" required id="tel" class="" />
+      </div>
+      <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
+        <label for="tel" class="modal-form__label">Comment</label>
+        <textarea
+          type="text"
+          name="comment"
+          id="comment"
+          placeholder="Text input"
+          class=""
+          optional
+        ></textarea>
+      </div>
+      <button class="btn btn--primary modal__btn" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+<!-- Modal3 -->
+<!-- Button which activates modal -->
+<button data-target="#modal3" type="button" class="products__link">
+  <svg width="12" height="12" class="locations_btn-icon">
+    <use href="./images/icons.svg#icon-arrow"></use>
+  </svg>
+</button>
+
+<!-- Main body of modal -->
+<div class="backdrop" data-target="#modal3" data-target-backdrop>
+  <div class="modal" id="modal3">
+    <button class="close-btn modal-btn" data-target="#modal3">&times;</button>
+    <h3 class="modal__title title">Chololate icecream</h3>
+    <div class="modal__iamge"></div>
+    <img src="./images/products/products-modal-ice-cream-1x.png" alt="ice-cream in a con" />
+    <ul class="modal-products-list">
+      <li class="modal-products-list__item">
+        <span class="modal-products__icons-text">320</span>kcal
+      </li>
+      <li class="modal-products-list__item">
+        <span class="modal-products__icons-text">4g</span>Protein
+      </li>
+      <li class="modal-products-list__item">
+        <span class="modal-products__icons-text">8,2g</span>Fats
+      </li>
+      <li class="modal-products-list__item">
+        <span class="modal-products__icons-text">40,4g</span>Carbs
+      </li>
+    </ul>
+    <p class="modal-products__content">Ingredients</p>
+    <ul class="modal-products-elements">
+      <li class="modal-products-elements__item">Milk<span>100ml</span></li>
+      <li class="modal-products-elements__item">Belgian chocolate<span>20g</span></li>
+      <li class="modal-products-elements__item">Cream<span>150ml</span></li>
+      <li class="modal-products-elements__item">Cocoa powder<span>30g</span></li>
+      <li class="modal-products-elements__item">Sugar<span>40g</span></li>
+      <li class="modal-products-elements__item">Vanilla<span>10g</span></li>
+    </ul>
+    <form name="signup_form" autocomplete="on" validate class="modal-form">
+      <div class="modal-form__input-wrapper">
+        <label class="modal-form__label">Name</label>
+        <input type="text" name="name" required id="name" class="" />
+      </div>
+      <div class="modal-form__input-wrapper">
+        <label for="tel" class="modal-form__label">Phone</label>
+        <input type="number" name="tel" required id="tel" class="" />
+      </div>
+      <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
+        <label for="tel" class="modal-form__label">Comment</label>
+        <textarea
+          type="text"
+          name="comment"
+          id="comment"
+          placeholder="Text input"
+          class=""
+          optional
+        ></textarea>
+      </div>
+      <button class="btn btn--primary modal__btn" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
 <!-- Buy now modal -->
 
-<div class="backdrop is-hidden" data-modal="modal1">
-  <div class="modal">
-    <button data-modal-close="modal1" type="button" class="close-btn modal-btn">&times;</button>
+<!-- Modal4 -->
+<!-- Button which activates modal -->
+<button class="btn btn-buy" type="button" data-target="#modal4">
+  Buy now
+  <svg width="12" height="12" class="locations_btn-icon">
+    <use href="./images/button-arrow.svg#icon-button-right-arrow"></use>
+  </svg>
+</button>
+
+<!-- Main body of modal -->
+<div class="backdrop" data-target="#modal4" data-target-backdrop>
+  <div class="modal" id="modal4">
+    <button type="button" class="close-btn modal-btn" data-target="#modal4">&times;</button>
     <h2 class="modal__title title">Buy now</h2>
-    <!-- <ul class="modal-list">
+    <ul class="modal-list">
       <li class="modal-list_item modal-list__item--green">
         <h3>Ice cream</h3>
       </li>
@@ -68,7 +214,7 @@
       <li class="modal-list_item modal-list__item--brown">
         <h3>Milkshake</h3>
       </li>
-    </ul> -->
+    </ul>
     <form class="modal-form" name="modal-form">
       <div class="modal-form__input-wrapper">
         <label for="name" class="modal-form__label">Name</label>
@@ -104,10 +250,14 @@
 
 <!-- How it's made modal-->
 
+<!-- Modal5 -->
+<!-- Button which activates modal -->
+<button class="btn btn-how-its-made" type="button" data-target="#modal5"></button>
+
 <!-- Main body of modal -->
-<div class="backdrop is-hidden" data-modal="modal3" data-target-backdrop>
-  <div class="modal modal__modal5">
-    <button type="button" class="close-btn modal-btn" data-modal-close="modal3">&times;</button>
+<div class="backdrop" data-target="#modal5" data-target-backdrop>
+  <div class="modal modal__modal5" id="modal5">
+    <button type="button" class="close-btn modal-btn" data-target="#modal5">&times;</button>
     <h2 class="about-modal__title modal__title title">How it`s made?</h2>
     <video
       class="about__vid"
@@ -126,10 +276,19 @@
 
 <!-- Our Locations / Franchise modals -->
 
+<!-- Modal6 -->
+<!-- Button which activates modal -->
+<button class="btn btn--primary locations__btn" type="button" data-target="#modal6">
+  Our Locations
+  <svg width="12" height="12" class="locations_btn-icon">
+    <use href="./images/button-arrow.svg#icon-button-right-arrow"></use>
+  </svg>
+</button>
+
 <!-- Main body of modal -->
-<div class="backdrop is-hidden" data-modal="modal4" data-target-backdrop>
-  <div class="modal">
-    <button type="button" class="close-btn modal-btn" data-modal-close="modal4">&times;</button>
+<div class="backdrop" data-target="#modal6" data-target-backdrop>
+  <div class="modal" id="#modal6">
+    <button type="button" class="close-btn modal-btn" data-target="#modal6">&times;</button>
     <div class="modal__locations-container">
       <h2 class="modal__locations-title modal__title title">Our Locations</h2>
       <iframe
@@ -153,10 +312,19 @@
   </div>
 </div>
 
+<!-- Modal7 -->
+<!-- Button which activates modal -->
+<button class="btn btn--border contacts__btn" type="button" data-target="#modal7">
+  Franchise
+  <svg width="12" height="12" class="locations_btn-icon">
+    <use href="./images/button-arrow.svg#icon-button-right-arrow"></use>
+  </svg>
+</button>
+
 <!-- Main body of modal -->
-<div class="backdrop is-hidden" data-modal="modal5" data-target-backdrop>
-  <div class="modal">
-    <button type="button" class="close-btn modal-btn" data-modal-close="modal5">&times;</button>
+<div class="backdrop" data-target="#modal7" data-target-backdrop>
+  <div class="modal" id="#modal7">
+    <button type="button" class="close-btn modal-btn" data-target="#modal7">&times;</button>
     <div class="modal__frnachise-container">
       <h2 class="modal__frnachise-title modal__title title">
         Thank you for your interest in owning an Ice Cream shop

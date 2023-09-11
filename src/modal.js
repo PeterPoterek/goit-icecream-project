@@ -1,7 +1,7 @@
 (() => {
   const modalButtons = document.querySelectorAll('[data-modal-open]');
   const closeButtons = document.querySelectorAll('[data-modal-close]');
-  //
+  
   modalButtons.forEach(button => {
     button.addEventListener('click', () => {
       const modalId = button.getAttribute('data-modal-open');

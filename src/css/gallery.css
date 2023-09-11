@@ -1,17 +1,19 @@
 #gallery {
-    position: relative;
-    bottom: 49px;
+    position: absolute;
+    top: -49px;
+    left: 0;
+    right: 0;
 }
 
 @media screen and (min-width: 768px) {
     #gallery {
-        bottom: 144px;
+        top: -144px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     #gallery {
-        bottom: 98px;
+        top: -98px;
     }
 }
 
