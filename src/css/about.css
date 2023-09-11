@@ -14,6 +14,53 @@
 .about_title-color {
   color: #fcfcfc;
 }
+@media screen and (min-width: 768px) {
+  .about_title-label {
+    color: #fcfcfc;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    text-transform: uppercase;
+  }
+  .about_title-color {
+    color: #fcfcfc;
+    text-align: center;
+    font-family: Seymour One;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.04px;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about_title-label {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .about_title-color {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Seymour One;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+}
 .about_content {
   max-width: 1060px;
   display: flex;
