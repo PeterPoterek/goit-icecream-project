@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IceCream</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-      crossorigin="anonymous"
-    />
 
-    <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IceCream</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600;1,9..40,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,800&family=Seymour+One&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,600;1,9..40,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,800&family=Seymour+One&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/about.css" />
-    <link rel="stylesheet" href="./css/advantages.css" />
-    <link rel="stylesheet" href="./css/contacts.css" />
-    <link rel="stylesheet" href="./css/customer-reviews.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/gallery.css" />
-    <link rel="stylesheet" href="./css/hero-content.css" />
-    <link rel="stylesheet" href="./css/hero-header.css" />
-    <link rel="stylesheet" href="./css/products.css" />
-    <link rel="stylesheet" href="./css/modal.css" />
-  </head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
-  <body>
-    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
-    <include src="./partials/hero-header.html"></include>
-    <include src="./partials/hero-content.html"></include>
-    <include src="./partials/products.html"></include>
-    <include src="./partials/about.html"></include>
-    <include src="./partials/advantages.html"></include>
-    <div class="bg-ice">
-      <include src="./partials/gallery.html"></include>
-      <include src="./partials/customer-reviews.html"></include>
-    </div>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/about.css" />
+  <link rel="stylesheet" href="./css/advantages.css" />
+  <link rel="stylesheet" href="./css/contacts.css" />
+  <link rel="stylesheet" href="./css/customer-reviews.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/gallery.css" />
+  <link rel="stylesheet" href="./css/hero-content.css" />
+  <link rel="stylesheet" href="./css/hero-header.css" />
+  <link rel="stylesheet" href="./css/products.css" />
+  <link rel="stylesheet" href="./css/modal.css" />
+</head>
+
+<body>
+  <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
+  <include src="./partials/hero-header.html"></include>
+  <include src="./partials/hero-content.html"></include>
+  <include src="./partials/products.html"></include>
+  <include src="./partials/about.html"></include>
+  <include src="./partials/advantages.html"></include>
+  <div class="bg-ice poz-rel">
+    <include src="./partials/gallery.html"></include>
+    <include src="./partials/customer-reviews.html"></include>
+  </div>
+  <div class="poz-rel">
     <include src="./partials/contacts.html"></include>
-    <include src="./partials/footer.html"></include>
+  </div>
+  <include src="./partials/footer.html"></include>
 
-    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony CSS plik. -->
-    <script src="./index.js" type="module"></script>
-    <script src="./modal.js" type="module"></script>
+  <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony CSS plik. -->
+  <script src="./index.js" type="module"></script>
+  <script src="./modal.js" type="module"></script>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper('.mySwiper', {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-      });
-    </script>
-  </body>
-  <include src="./partials/modals.html"></include>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
 </html>
+
