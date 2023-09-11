@@ -174,3 +174,8 @@ h2 {
 .h-hidden {
   display: none;
 }
+
+/* tymczasowa klasa do pozucjonnowania galerii */
+.poz-rel {
+  position: relative;
+}
