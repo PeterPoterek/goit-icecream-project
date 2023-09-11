@@ -368,6 +368,12 @@
   .hero-button-container {
     padding-bottom: 42px;
   }
+  .hero-content-button-border {
+    font-size: var(--font-size-small);
+  }
+  .hero-content-button-underline {
+    font-size: var(--font-size-small);
+  }
   .hero-content-text {
     font-size: var(--font-size-small);
   }
