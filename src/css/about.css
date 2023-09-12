@@ -88,7 +88,7 @@
 .about_image-wrap img {
   width: 278px;
   height: 278px;
-}
+} 
 @media screen and (min-width: 768px) {
   .about_content {
     flex-direction: row;
@@ -116,13 +116,9 @@
   position: relative;
   top: 22px;
 }
-/* width: 330px;
-height: 330px;
-flex-shrink: 0;
-border-radius: 1228px;
-background: url(<path-to-image>), lightgray 0px -17.83px / 100% 123.077% no-repeat; */
 .about_btn-text-wrap {
   padding-top: 0;
+  align-items: flex-start;
 }
 .about_text-wrap {
   display: flex;
