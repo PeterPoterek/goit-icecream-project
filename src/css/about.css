@@ -116,7 +116,7 @@ flex-shrink: 0;
 border-radius: 1228px;
 background: url(<path-to-image>), lightgray 0px -17.83px / 100% 123.077% no-repeat; */
 .about_btn-text-wrap {
-  padding-top: 172px;
+  padding-top: 0;
 }
 .about_text-wrap {
   display: flex;
