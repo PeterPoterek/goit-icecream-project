@@ -1,0 +1,99 @@
+<!-- nagłówek desktop -->
+<header id="hero-header">
+  <section class="header-desktop">
+    <div class="container">
+      <div class="header-desktop-content">
+        <a class="logo-header">
+          <svg width="60px" height="65px"><use href="./images/icons.svg#icon-logo"></use></svg>
+        </a>
+
+        <ul class="navigate-header">
+          <li><a href="#header-destop" class="navigation-sections">Home</a></li>
+          <li><a href="#about" class="navigation-sections">How it's made?</a></li>
+          <li><a href="#products" class="navigation-sections">Our products</a></li>
+          <li><a href="#contacts" class="navigation-sections">Contact</a></li>
+        </ul>
+
+        <button data-modal-open="modal1" class="button-header" type="button">
+          Buy now
+          <svg width="12px" height="12px">
+            <use href="./images/icons.svg#icon-arrow-button"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- nagłówek aplikacji mobiej -->
+
+  <section class="mobile-header">
+    <div class="container">
+      <div class="mobile-header-content">
+        <a class="logo-mobile-header">
+          <svg width="60px" height="65px"><use href="./images/icons.svg#icon-logo"></use></svg>
+        </a>
+        <div class="buttions-mobile-header">
+          <button
+            data-modal-open="modal-header."
+            type="button"
+            class="menu-mobile-header"
+            aria-expanded="false"
+          >
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-mobile-header"></use>
+            </svg>
+          </button>
+
+          <button data-modal-open="modal1" class="button-header button-tablet-header" type="button">
+            Buy now
+            <svg width="12px" height="12px">
+              <use href="./images/icons.svg#icon-arrow-button"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="backdrop-header-mobile is-hidden" data-modal="modal-header.">
+    <div class="mobile-header-modal">
+      <div class="header-modal-header">
+        <a class="logo-mobile-header">
+          <svg width="60px" height="65px"><use href="./images/icons.svg#icon-logo"></use></svg>
+        </a>
+        <button data-modal-close="modal-header." type="button" class="close-button-modal-header">
+          <svg width="20" height="20">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+      </div>
+      <ul class="navigate-header-modal">
+        <li>
+          <a href="#header-destop" data-modal-close="modal-header." class="navigation-modal-mobile"
+            >Home</a
+          >
+        </li>
+        <li class="margins-nmm">
+          <a href="#about" data-modal-close="modal-header." class="navigation-modal-mobile"
+            >How it's made?</a
+          >
+        </li>
+        <li class="margins-nmm">
+          <a href="#products" data-modal-close="modal-header." class="navigation-modal-mobile"
+            >Our products</a
+          >
+        </li>
+        <li class="margins-nmm">
+          <a href="#contacts" data-modal-close="modal-header." class="navigation-modal-mobile"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <button data-modal-open="modal1" class="button-modal-header" type="button">
+        Buy now
+        <svg width="12px" height="12px">
+          <use href="./images/icons.svg#icon-arrow-button"></use>
+        </svg>
+      </button>
+    </div>
+  </section>
+</header>

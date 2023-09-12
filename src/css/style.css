@@ -1,0 +1,181 @@
+:root {
+  /* colors */
+  --yellow: #f8d24e;
+  --yellow-shade: #efd478;
+  --dark-green: #0a8817;
+  --green-shade: #aec6a5;
+  --dark-orange: #d6936d;
+  --gray: #ababab;
+  --white: #ffffff;
+  --white-shade: #fcfcfc;
+  --black: #000000;
+  --black-shade: #131313;
+  --bg-green: #84a178;
+
+  /* fonts */
+  --font-size-xxs: 8px;
+  --font-size-xs: 12px;
+  --font-size-small: 14px;
+  --font-size-normal: 16px;
+  --font-size-medium: 26px;
+  --font-size-heading-xs: 28px;
+  --font-size-heading-small: 30px;
+  --font-size-heading-highlight: 34px;
+  --font-size-large: 36px;
+  --font-size-xl: 38px;
+  --font-size-xxl-small: 46px;
+  --font-size-xxl: 58px;
+}
+
+html {
+  cursor: url('../images/cursor-black.svg'), auto;
+}
+
+a:hover,
+button:hover {
+  cursor: url('../images/cursor-transparent.svg'), pointer;
+}
+
+body {
+  font-size: var(--font-size-normal);
+  color: var(--black-shade);
+  font-family: 'Montserrat', sans-serif;
+  /* Chciałbym dodać jakiś ogólny styl który działał by na każde p ale wszystkie są inne i w dodatku na wersjach mobile/tablet/pc też się różnią */
+  background: var(--bg-green, #84a178);
+  /*Jak wszędzie będzie zielono to trzeba będzie tylko ustawić obrazki - może tak będzie łatwiej */
+}
+
+/* utlity classes */
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+menu {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+menu {
+  list-style: none;
+}
+
+h1 {
+  color: #fcfcfc;
+  font-family: 'Seymour One';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Seymour One';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+/* Najpierw div.bg potem sekcja.container albo sekcja z div.container */
+
+/* .bg-green {
+  background: var(--bg-green, #84A178);
+} */
+
+.bg-ice {
+  background-image: url('../images/background/background-mobile-1x.png');
+  background-position: center top;
+  background-repeat: repeat-y repeat-x;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-ice {
+    background-image: url('../images/background/background-tablet-1x.png');
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bg-ice {
+    background-image: url('../images/background/background-desktop-1x.png');
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .bg-ice {
+    background-image: url('../images/background/background-mobile-2x.png');
+    background-position: center top;
+    background-repeat: repeat-y;
+  }
+
+  @media screen and (min-width: 768px) {
+    .bg-ice {
+      background-image: url('../images/background/background-tablet-2x.png');
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .bg-ice {
+      background-image: url('../images/background/background-desktop-2x.png');
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1168px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Klasa do ukrywania tytułu */
+.h-hidden {
+  display: none;
+}
+
+/* tymczasowa klasa do pozucjonnowania galerii */
+.poz-rel {
+  position: relative;
+}
