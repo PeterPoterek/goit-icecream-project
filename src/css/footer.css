@@ -5,20 +5,7 @@
     font-style: normal;
     background-color: var(--bg-green);
     padding-bottom: 20px;
-    padding-top: 1103px;
-}
-
-/* pozycjonowanie dla contacts */
-@media screen and (min-width: 768px) {
-    .footer {
-        padding-top: 360px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .footer {
-        padding-top: 636px;
-    }
+    margin-top: 60px;
 }
 
 .f-container {
@@ -62,7 +49,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .footer-social-item1 svg:focus {
@@ -168,7 +154,7 @@
 
     .footer {
         padding-bottom: 12px;
-        /* margin-top: 40px; */
+        margin-top: 40px;
     }
 
 }
@@ -225,7 +211,4 @@
     }
 
     .footer-social {
-        gap: 30px;
-    }
-
-}
+        gap: 30px;}
