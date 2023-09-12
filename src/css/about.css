@@ -248,10 +248,16 @@ background: url(<path-to-image>), lightgray 0px -17.83px / 100% 123.077% no-repe
   line-height: 162%; /* 19.44px */
 }
 }
-.about_btn btn btn--primary {
-  width: 164px;
+.buttom_wrap {
+  display: flex;
+  justify-content: center;
+}
+.about_btn {
+  max-width: 164px;
   border-radius: 10px;
-  background: #F8D24E;
+  background: #f8d24e;
+  padding-top: 8px;
+  font-size: 14px;
 }
 .about_icon-button-arrow {
   width: 12px;
