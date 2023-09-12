@@ -1,3 +1,61 @@
+ @media screen and (min-width: 768px) {
+  .about {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .about_title-label {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    text-transform: uppercase;
+  }
+  .about_title-color {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Seymour One;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.04px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .about_title-label {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+  .about_title-color {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Seymour One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.16px;
+    text-transform: uppercase;
+  }
+} 
+
 .about {
   padding-bottom: 60px;
   padding-top: 60px;
