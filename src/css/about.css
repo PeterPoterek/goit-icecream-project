@@ -1,5 +1,6 @@
 .about {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 .about_title-label {
   color: #fcfcfc;
@@ -251,7 +252,9 @@
 .buttom_wrap {
   display: flex;
   justify-content: center;
-
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
 }
 .about_btn {
   max-width: 164px;
