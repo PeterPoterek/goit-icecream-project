@@ -36,22 +36,27 @@
   </head>
 
   <body>
-    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
-    <include src="./partials/hero-header.html"></include>
-    <include src="./partials/hero-content.html"></include>
-    <include src="./partials/products.html"></include>
-    <include src="./partials/about.html"></include>
-    <include src="./partials/advantages.html"></include>
-    <div class="bg-ice poz-rel">
-      <include src="./partials/gallery.html"></include>
-      <include src="./partials/customer-reviews.html"></include>
-    </div>
-    <div class="poz-rel">
-      <include src="./partials/contacts.html"></include>
-    </div>
-    <include src="./partials/footer.html"></include>
+    <header>
+      <include src="./partials/hero-header.html"></include>
+    </header>
+    <main>
+      <include src="./partials/hero-content.html"></include>
+      <include src="./partials/products.html"></include>
+      <include src="./partials/about.html"></include>
+      <include src="./partials/advantages.html"></include>
+      <div class="bg-ice poz-rel">
+        <include src="./partials/gallery.html"></include>
+        <include src="./partials/customer-reviews.html"></include>
+      </div>
+      <div class="poz-rel">
+        <include src="./partials/contacts.html"></include>
+      </div>
+    </main>
 
-    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony CSS plik. -->
+    <footer>
+      <include src="./partials/footer.html"></include>
+    </footer>
+
     <script src="./index.js" type="module"></script>
     <script src="./modal.js" type="module"></script>
 
