@@ -3,7 +3,7 @@
 .footer {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    background-color: var(--rivergrass);
+    background-color: var(--bg-green);
     padding-bottom: 20px;
     margin-top: 60px;
 }
@@ -43,13 +43,12 @@
 }
 
 .footer-social-item1 svg {
-    fill: var(--rivergrass);
+    fill: var(--bg-green);
     background-color: var(--yellow);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .footer-social-item1 svg:focus {
