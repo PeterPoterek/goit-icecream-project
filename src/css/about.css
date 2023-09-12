@@ -251,6 +251,7 @@
 .buttom_wrap {
   display: flex;
   justify-content: center;
+
 }
 .about_btn {
   max-width: 164px;
@@ -262,6 +263,7 @@
 .about_icon-button-arrow {
   width: 12px;
   color: #000;
+
 }
 @media screen and (min-width: 768px) {
   .about_btn btn btn--primary {
