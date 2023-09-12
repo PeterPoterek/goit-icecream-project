@@ -76,19 +76,6 @@
     letter-spacing: 2.16px;
   }
 }
-
-@media screen and (min-width: 768px) {
-  .products-header {
-    font-size: 34px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .products-header {
-    font-size: 36px;
-    letter-spacing: 2.16px;
-  }
-}
 .products-cards {
   display: flex;
   justify-content: center;
@@ -213,12 +200,12 @@
   margin-bottom: 40px;
 }
 @media (min-width: 768px) {
-  .products-item-h2 {
+  .products-item-h3 {
     font-size: 22px;
   }
 }
 @media (min-width: 1200px) {
-  .products-item-h2 {
+  .products-item-h3 {
     font-size: 30px;
   }
 }
