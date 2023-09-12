@@ -84,10 +84,14 @@
   flex-shrink: 0;
   display: flex;
   justify-content: center;
+  margin:0 auto;
+  display:block;
 }
 .about_image-wrap img {
   width: 278px;
   height: 278px;
+  margin:0 auto;
+  display:block;
 } 
 @media screen and (min-width: 768px) {
   .about_content {
