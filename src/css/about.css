@@ -128,6 +128,7 @@ background: url(<path-to-image>), lightgray 0px -17.83px / 100% 123.077% no-repe
   display: flex;
   flex-direction: column;
   width: 463px;
+  max-width: 220px;
 }
 .about_paragraph_1 {
   width: 463px;
@@ -140,6 +141,7 @@ background: url(<path-to-image>), lightgray 0px -17.83px / 100% 123.077% no-repe
   font-weight: 400;
   line-height: 176%; /* 28.16px */
   letter-spacing: 0.64px;
+  text-align: center;
 }
 .about_paragraph_2 {
   width: 463px;
@@ -151,6 +153,7 @@ background: url(<path-to-image>), lightgray 0px -17.83px / 100% 123.077% no-repe
   font-weight: 400;
   line-height: 194%; /* 27.16px */
   letter-spacing: 0.56px;
+  text-align: center;
 }
 .about_paragraph_3 {
   width: 457px;
@@ -162,6 +165,7 @@ background: url(<path-to-image>), lightgray 0px -17.83px / 100% 123.077% no-repe
   font-weight: 400;
   line-height: 194%; /* 27.16px */
   letter-spacing: 0.56px;
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
  .about_btn-text-wrap {
