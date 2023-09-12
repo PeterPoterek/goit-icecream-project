@@ -1,11 +1,20 @@
 /* FOOTER*/
-
 .footer {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     background-color: var(--bg-green);
     padding-bottom: 20px;
-    margin-top: 60px;
+    padding-top: 1103px;
+}
+
+/* pozycjonowanie dla contacts */ @media screen and (min-width: 768px) {
+    .footer {
+        padding-top: 360px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer {
+        padding-top: 636px;
+    }
 }
 
 .f-container {
