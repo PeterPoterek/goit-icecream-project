@@ -1,6 +1,5 @@
 /* Modals */
 
-
 .backdrop {
   width: 100%;
   height: 100%;
@@ -47,18 +46,18 @@
 }
 
 .close-btn {
-    cursor: pointer;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    padding: 0;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-}    
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
 
 .close-btn__icon {
   fill: var(--black-shade);
-  transition: transform .25s cubic-bezier(.4,0,.2,1);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
@@ -100,52 +99,50 @@
   .modal-list {
     gap: 32px;
     margin-bottom: 40px;
-  }    
+  }
 }
-
 
 /* Buy now modal */
 
 .modal-list__item {
-    max-width: 132px;
-    height: 135px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #131313;
-    border: 2px solid #96af8c;
-    border-radius: 15.7px;
-    flex-basis: 100%;
-    margin-top: 63px;
-    padding: 95px 0 20px;
-    font-size: 1.6rem;
-    font-weight: 700;
-    line-height: 1.25;
-    position: relative;
+  max-width: 132px;
+  height: 135px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #131313;
+  border: 2px solid #96af8c;
+  border-radius: 15.7px;
+  flex-basis: 100%;
+  margin-top: 63px;
+  padding: 95px 0 20px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.25;
+  position: relative;
 }
 
 .modal-list__item--green {
   border-radius: 15px;
-  border: 2px solid #96AF8C;
-  box-shadow: 0px 5.26027px 19.72603px 0px rgba(212, 20, 67, 0.10);
+  border: 2px solid #96af8c;
+  box-shadow: 0px 5.26027px 19.72603px 0px rgba(212, 20, 67, 0.1);
 }
 
 .modal-list__item--yellow {
   border-radius: 15px;
   border: 2px solid var(--yellow);
   background: var(--yellow);
-  box-shadow: 0px 5.26027px 19.72603px 0px rgba(212, 20, 67, 0.10);
+  box-shadow: 0px 5.26027px 19.72603px 0px rgba(212, 20, 67, 0.1);
 }
 
 .modal-list__item--brown {
   border-radius: 15.781px;
   border: 2px solid var(--dark-orange);
-  box-shadow: 0px 5.26027px 19.72603px 0px rgba(212, 20, 67, 0.10);
+  box-shadow: 0px 5.26027px 19.72603px 0px rgba(212, 20, 67, 0.1);
 }
 
 /*.modal-list__item {
   flex-basis: calc(33.3333% - 21.3333px);
 }*/
-
 
 .modal-list__item--text {
   color: var(--black-shade);
@@ -156,7 +153,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .modal-list__item:after {
@@ -239,7 +236,7 @@
   left: 12px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .modal-form__label {
     /*font-size: 1.4rem;*/
     top: 11px;
@@ -279,18 +276,20 @@ input::-webkit-inner-spin-button {
 
 .modal-form__input:focus {
   background-color: #f8ecbf;
-  outline: rgba(0,0,0,0);
+  outline: rgba(0, 0, 0, 0);
 }
 
-.modal-form__input:focus+.modal-form__label, .modal-form__input:not(:placeholder-shown)+.modal-form__label {
-  font-size: .8rem;
-  transform: translate(-8px,-18px);
+.modal-form__input:focus + .modal-form__label,
+.modal-form__input:not(:placeholder-shown) + .modal-form__label {
+  font-size: 0.8rem;
+  transform: translate(-8px, -18px);
 }
 
 @media screen and (min-width: 768px) {
-  .modal-form__input:focus+.modal-form__label, .modal-form__input:not(:placeholder-shown)+.modal-form__label {
+  .modal-form__input:focus + .modal-form__label,
+  .modal-form__input:not(:placeholder-shown) + .modal-form__label {
     font-size: 1rem;
-    transform: translate(-12px,-25px);
+    transform: translate(-12px, -25px);
   }
 }
 
@@ -397,7 +396,6 @@ input::-webkit-inner-spin-button {
   display: flex;
   position: relative;
   flex-direction: column;
-  
 }
 
 .modal-products__icons-text {
@@ -541,15 +539,13 @@ input::-webkit-inner-spin-button {
 .modal__franchise-title {
   margin-bottom: 20px;
   display: flex;
-  width: 322px;
-  height: 84px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
   color: var(--black-shade);
   text-align: center;
   font-family: Seymour One;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4;
@@ -563,14 +559,13 @@ input::-webkit-inner-spin-button {
 }
 
 .modal__franchise-text {
-  width: 448px;
   color: var(--black-shade);
   font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: normal;
   margin-bottom: 24px;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -591,8 +586,8 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-form__textarea {
-    resize: none;
-    min-height: 84px;
+  resize: none;
+  min-height: 84px;
 }
 
 .is-hidden {
