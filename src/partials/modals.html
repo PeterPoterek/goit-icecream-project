@@ -49,19 +49,33 @@
     </ul>
     <form name="signup_form" autocomplete="on" validate class="modal-form">
       <div class="modal-form__input-wrapper">
-        <label class="modal-form__label">Name</label>
-        <input type="text" name="name" required id="name" class="modal-form__input" />
+        <label class="modal-form__label visually-hidden">Name</label>
+        <input
+          type="text"
+          name="name"
+          required
+          id="name"
+          class="modal-form__input"
+          placeholder="Name"
+        />
       </div>
       <div class="modal-form__input-wrapper">
-        <label for="tel" class="modal-form__label">Phone</label>
-        <input type="number" name="tel" required id="tel" class="modal-form__input" />
+        <label for="tel" class="modal-form__label visually-hidden">Phone</label>
+        <input
+          type="number"
+          name="tel"
+          required
+          id="tel"
+          class="modal-form__input"
+          placeholder="Phone"
+        />
       </div>
       <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
-        <label for="tel" class="modal-form__label">Comment</label>
+        <label for="tel" class="modal-form__label visually-hidden">Comment</label>
         <textarea
           name="modal-form__textarea"
           id="products-comment"
-          placeholder=""
+          placeholder="Comment"
           class="modal-form__input modal-form__textarea"
         ></textarea>
       </div>
@@ -93,27 +107,35 @@
     </ul>
     <form class="modal-form" name="modal-form">
       <div class="modal-form__input-wrapper">
-        <label for="name" class="modal-form__label">Name</label>
-        <input type="text" required id="name" for="name" minlength="3" class="modal-form__input" />
+        <label for="name" class="modal-form__label visually-hidden">Name</label>
+        <input
+          type="text"
+          required
+          id="name"
+          for="name"
+          minlength="3"
+          class="modal-form__input"
+          placeholder="Name"
+        />
       </div>
       <div class="modal-form__input-wrapper">
-        <label for="tel" class="modal-form__label">Phone</label>
+        <label for="tel" class="modal-form__label visually-hidden">Phone</label>
         <input
           type="number"
           required
           id="number"
           for="tel"
           class="modal-form__input"
-          placeholder=""
+          placeholder="Phone"
           minlength="10"
         />
       </div>
       <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
-        <label class="modal-form__label">Comment</label>
+        <label class="modal-form__label visually-hidden">Comment</label>
         <textarea
           name="modal-form__textarea"
           id="comment"
-          placeholder=""
+          placeholder="Comment"
           class="modal-form__input modal-form__input-text"
           optional
           minlength="10"
@@ -203,46 +225,46 @@
       </p>
       <form class="modal-form" name="modal-form">
         <div class="modal-form__input-wrapper">
-          <label for="name" class="modal-form__label">Name</label>
+          <label for="name" class="modal-form__label visually-hidden">Name</label>
           <input
             type="text"
             required
             id="franchise-name"
             for="name"
-            placeholder=""
+            placeholder="Name"
             minlength="2"
             class="modal-form__input"
           />
         </div>
         <div class="modal-form__input-wrapper">
-          <label for="tel" class="modal-form__label">Phone</label>
+          <label for="tel" class="modal-form__label visually-hidden">Phone</label>
           <input
             type="tel"
             required
             id="tel"
             for="tel"
             class="modal-form__input"
-            placeholder=""
+            placeholder="Phone"
             minlength="10"
           />
         </div>
         <div class="modal-form__input-wrapper">
-          <label for="email" class="modal-form__label">Email</label>
+          <label for="email" class="modal-form__label visually-hidden">Email</label>
           <input
             type="email"
             class="modal-form__input"
             name="email"
             id="franchise-email"
-            placeholder=""
+            placeholder="Email"
             required
           />
         </div>
         <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
-          <label class="modal-form__label">Comment</label>
+          <label class="modal-form__label visually-hidden">Comment</label>
           <textarea
             name="modal-form__textarea"
             id="franchise-comment"
-            placeholder=""
+            placeholder="Comment"
             class="modal-form__input modal-form__input-text"
             optional
             minlength="10"
