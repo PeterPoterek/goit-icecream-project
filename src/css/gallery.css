@@ -1,17 +1,19 @@
 #gallery {
-    position: relative;
-    bottom: 49px;
+    position: absolute;
+    top: -49px;
+    left: 0;
+    right: 0;
 }
 
 @media screen and (min-width: 768px) {
     #gallery {
-        bottom: 144px;
+        top: -144px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     #gallery {
-        bottom: 98px;
+        top: -98px;
     }
 }
 
@@ -58,7 +60,7 @@
 @keyframes swap {
 
     0%,
-    10% {
+    20% {
         opacity: 1;
     }
 
@@ -72,7 +74,7 @@
         opacity: 0;
     }
 
-    90%,
+    80%,
     100% {
         opacity: 1;
     }
@@ -92,8 +94,8 @@
         opacity: 0;
     }
 
-    30%,
-    40% {
+    20%,
+    50% {
         opacity: 1;
     }
 
@@ -127,8 +129,8 @@
         opacity: 0;
     }
 
-    60%,
-    70% {
+    50%,
+    80% {
         opacity: 1;
     }
 

@@ -42,11 +42,13 @@
     <include src="./partials/products.html"></include>
     <include src="./partials/about.html"></include>
     <include src="./partials/advantages.html"></include>
-    <div class="bg-ice">
+    <div class="bg-ice poz-rel">
       <include src="./partials/gallery.html"></include>
       <include src="./partials/customer-reviews.html"></include>
     </div>
-    <include src="./partials/contacts.html"></include>
+    <div class="poz-rel" id="contacts">
+      <include src="./partials/contacts.html"></include>
+    </div>
     <include src="./partials/footer.html"></include>
 
     <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony CSS plik. -->
@@ -71,5 +73,29 @@
         },
       });
     </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const links = document.querySelectorAll('a[href^="#"]');
+
+        links.forEach(link => {
+          link.addEventListener('click', smoothScroll);
+        });
+
+        function smoothScroll(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop,
+              behavior: 'smooth',
+            });
+          }
+        }
+      });
+    </script>
   </body>
+  <include src="./partials/modals.html"></include>
 </html>
