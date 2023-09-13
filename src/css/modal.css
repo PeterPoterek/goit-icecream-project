@@ -44,7 +44,7 @@
 @media screen and (min-width: 768px) {
   .modal {
     width: 568px;
-    padding: 32px;
+    padding: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -410,7 +410,7 @@ input::-webkit-inner-spin-button {
 .modal-products-list {
   justify-content: center;
   gap: 9px;
-  margin-bottom: 39px;
+  margin-bottom: 25px;
   display: flex;
 }
 
@@ -495,14 +495,14 @@ input::-webkit-inner-spin-button {
 
 .modal-products-elements {
   flex-direction: column;
-  gap: 11px;
+  gap: 6px;
   margin-bottom: 48px;
   display: flex;
 }
 
 @media screen and (min-width: 480px) {
   .modal-products-elements {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 }
 
