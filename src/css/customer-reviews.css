@@ -86,6 +86,7 @@
   align-items: center;
 }
 
+
 @media screen and (min-width: 768px) {
   .slide-description {
     max-width: 705px;
@@ -99,8 +100,10 @@
 @media screen and (min-width: 1200px) {
   .slide-description {
     max-width: 968px;
+    height: 138px;
     padding: 43px 109px;
     font-size: var(--font-size-normal, 16px);
+    line-height: 1.86; /* 29.76px */
   }
 }
 
