@@ -314,13 +314,15 @@
   margin: 0 auto;
   text-align: center;
   padding-top: 24px;
+  flex-direction: row;
 }
 .about_btn {
   max-width: 164px;
   border-radius: 10px;
   background: #f8d24e;
-  padding-top: 8px;
   font-size: 14px;
+  padding: 12px 34px;
+  display: flex;
 }
 .about_icon-button-arrow {
   width: 12px;
