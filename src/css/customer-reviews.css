@@ -1,12 +1,6 @@
 .customer-reviews {
   padding-bottom: 409px;
-  padding-top: 178px;
-}
-
-@media screen and (min-width: 480px) {
-  .customer-reviews {
-    padding-top: 235px;
-  }
+  padding-top: 235px;
 }
 
 @media screen and (min-width: 768px) {
@@ -75,7 +69,7 @@
 }
 
 .slide-description {
-  max-width: 280px;
+  width: 280px;
   height: 256px;
   color: var(--white-shade, #fcfcfc);
   padding: 35px 39px;
@@ -92,24 +86,14 @@
   align-items: center;
 }
 
-
-@media screen and (min-width: 768px) {
-  .slide-description {
-    max-width: 705px;
-    height: 138px;
-    padding: 28px 80px;
-    font-size: var(--font-size-normal, 14px);
-    line-height: 1.86; /* 29.76px */
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .slide-description {
-    max-width: 968px;
+    width: 968px;
     height: 138px;
     padding: 43px 109px;
     font-size: var(--font-size-normal, 16px);
-    line-height: 1.86; /* 29.76px */
+    line-height: 1.86;
+    /* 29.76px */
   }
 }
 

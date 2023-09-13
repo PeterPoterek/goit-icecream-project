@@ -3,24 +3,39 @@
 <div class="backdrop is-hidden" data-modal="modal2">
   <div class="modal">
     <button data-modal-close="modal2" class="close-btn">
-      <svg class="close-btn__icon" width="20" height="20" >
+      <svg class="close-btn__icon" width="20" height="20">
         <use href="/src/images/icons.svg#icon-cross"></use>
       </svg>
     </button>
     <h2 class="modal__title title">Chololate icecream</h2>
-    <div class="modal__iamge"></div>
+    <div class="modal__image">
+      <img
+        src="./images/products/products-modal-ice-cream-1x.png"
+        alt="ice cream in a con"
+        width="132"
+        height="132"
+      />
+    </div>
     <ul class="modal-products-list">
       <li class="modal-products-list__item">
-        <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165);">320</span>kcal
+        <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165)"
+          >320</span
+        >kcal
       </li>
       <li class="modal-products-list__item">
-        <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165);">4g</span>Prote...
+        <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165)"
+          >4g</span
+        >Prote...
       </li>
       <li class="modal-products-list__item">
-        <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165);">8,2g</span>Fats
+        <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165)"
+          >8,2g</span
+        >Fats
       </li>
       <li class="modal-products-list__item">
-        <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165);">40,4g</span>Carbs
+        <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165)"
+          >40,4g</span
+        >Carbs
       </li>
     </ul>
     <p class="modal-products__content">Ingredients</p>
@@ -34,19 +49,33 @@
     </ul>
     <form name="signup_form" autocomplete="on" validate class="modal-form">
       <div class="modal-form__input-wrapper">
-        <label class="modal-form__label">Name</label>
-        <input type="text" name="name" required id="name" class="modal-form__input" />
+        <label class="modal-form__label visually-hidden">Name</label>
+        <input
+          type="text"
+          name="name"
+          required
+          id="name"
+          class="modal-form__input"
+          placeholder="Name"
+        />
       </div>
       <div class="modal-form__input-wrapper">
-        <label for="tel" class="modal-form__label">Phone</label>
-        <input type="number" name="tel" required id="tel" class="modal-form__input" />
+        <label for="tel" class="modal-form__label visually-hidden">Phone</label>
+        <input
+          type="number"
+          name="tel"
+          required
+          id="tel"
+          class="modal-form__input"
+          placeholder="Phone"
+        />
       </div>
       <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
-        <label for="tel" class="modal-form__label">Comment</label>
+        <label for="tel" class="modal-form__label visually-hidden">Comment</label>
         <textarea
           name="modal-form__textarea"
           id="products-comment"
-          placeholder=""
+          placeholder="Comment"
           class="modal-form__input modal-form__textarea"
         ></textarea>
       </div>
@@ -60,7 +89,7 @@
 <div class="backdrop is-hidden" data-modal="modal1">
   <div class="modal">
     <button data-modal-close="modal1" type="button" class="close-btn">
-      <svg class="close-btn__icon" width="20" height="20" >
+      <svg class="close-btn__icon" width="20" height="20">
         <use href="/src/images/icons.svg#icon-cross"></use>
       </svg>
     </button>
@@ -78,27 +107,35 @@
     </ul>
     <form class="modal-form" name="modal-form">
       <div class="modal-form__input-wrapper">
-        <label for="name" class="modal-form__label">Name</label>
-        <input type="text" required id="name" for="name" minlength="2" class="modal-form__input" />
+        <label for="name" class="modal-form__label visually-hidden">Name</label>
+        <input
+          type="text"
+          required
+          id="name"
+          for="name"
+          minlength="3"
+          class="modal-form__input"
+          placeholder="Name"
+        />
       </div>
       <div class="modal-form__input-wrapper">
-        <label for="tel" class="modal-form__label">Phone</label>
+        <label for="tel" class="modal-form__label visually-hidden">Phone</label>
         <input
-          type="tel"
+          type="number"
           required
-          id="tel"
+          id="number"
           for="tel"
           class="modal-form__input"
-          placeholder=""
+          placeholder="Phone"
           minlength="10"
         />
       </div>
       <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
-        <label class="modal-form__label">Comment</label>
+        <label class="modal-form__label visually-hidden">Comment</label>
         <textarea
           name="modal-form__textarea"
           id="comment"
-          placeholder=""
+          placeholder="Comment"
           class="modal-form__input modal-form__input-text"
           optional
           minlength="10"
@@ -111,24 +148,25 @@
 
 <!-- How it's made modal-->
 
-
 <div class="backdrop is-hidden" data-modal="modal3">
   <div class="modal">
     <button type="button" class="close-btn" data-modal-close="modal3">
-      <svg class="close-btn__icon" width="20" height="20" >
+      <svg class="close-btn__icon" width="20" height="20">
         <use href="/src/images/icons.svg#icon-cross"></use>
       </svg>
     </button>
     <h2 class="about-modal__title modal__title title">How it`s made?</h2>
     <video
       class="about__vid"
-      src="https://youtu.be/ZZ5LpwO-An4?si=TVthMOa1QG9npkg7"
+      src="/src/images/video/mixkit-slow-motion-portrait-of-a-cow-grazing-32604-medium.mp4"
       poster="/src/images/cow-poster-about.jpg"
       controls
       preload="auto"
     ></video>
     <p class="about__vid-description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et
     </p>
   </div>
 </div>
@@ -138,25 +176,29 @@
 <div class="backdrop is-hidden" data-modal="modal4">
   <div class="modal">
     <button type="button" class="close-btn" data-modal-close="modal4">
-      <svg class="close-btn__icon" width="20" height="20" >
+      <svg class="close-btn__icon" width="20" height="20">
         <use href="/src/images/icons.svg#icon-cross"></use>
       </svg>
     </button>
     <div class="modal__locations-container">
       <h2 class="modal__locations-title modal__title title">Our Locations</h2>
-      <iframe class="modal__locations-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40796.77556384287!2d19.114973696143952!3d50.27702137952549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da99feda4b29%3A0xcb6c2aa12b6507db!2sSosnowiec!5e0!3m2!1sen!2spl!4v1694524917254!5m2!1sen!2spl" 
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+      <iframe
+        class="modal__locations-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40796.77556384287!2d19.114973696143952!3d50.27702137952549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da99feda4b29%3A0xcb6c2aa12b6507db!2sSosnowiec!5e0!3m2!1sen!2spl!4v1694524917254!5m2!1sen!2spl"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      >
+      </iframe>
       <a
         href="https://goo.gl/maps/Lps8UKAYn2SWHbgX8"
         target="_blank"
         rel="nofollow noopener noreferrer"
-        class="btn btn--primary modal__btn">
+        class="btn btn--primary modal__btn"
+      >
         Open map
-        </a>
+      </a>
     </div>
   </div>
 </div>
@@ -167,7 +209,7 @@
 <div class="backdrop is-hidden" data-modal="modal5">
   <div class="modal">
     <button type="button" class="close-btn" data-modal-close="modal5">
-      <svg class="close-btn__icon" width="20" height="20" >
+      <svg class="close-btn__icon" width="20" height="20">
         <use href="/src/images/icons.svg#icon-cross"></use>
       </svg>
     </button>
@@ -183,46 +225,46 @@
       </p>
       <form class="modal-form" name="modal-form">
         <div class="modal-form__input-wrapper">
-          <label for="name" class="modal-form__label">Name</label>
+          <label for="name" class="modal-form__label visually-hidden">Name</label>
           <input
             type="text"
             required
             id="franchise-name"
             for="name"
-            placeholder=""
+            placeholder="Name"
             minlength="2"
             class="modal-form__input"
           />
         </div>
         <div class="modal-form__input-wrapper">
-          <label for="tel" class="modal-form__label">Phone</label>
+          <label for="tel" class="modal-form__label visually-hidden">Phone</label>
           <input
             type="tel"
             required
             id="tel"
             for="tel"
             class="modal-form__input"
-            placeholder=""
+            placeholder="Phone"
             minlength="10"
           />
         </div>
         <div class="modal-form__input-wrapper">
-          <label for="email" class="modal-form__label">Email</label>
+          <label for="email" class="modal-form__label visually-hidden">Email</label>
           <input
             type="email"
             class="modal-form__input"
             name="email"
             id="franchise-email"
-            placeholder=""
+            placeholder="Email"
             required
           />
         </div>
         <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
-          <label class="modal-form__label">Comment</label>
+          <label class="modal-form__label visually-hidden">Comment</label>
           <textarea
             name="modal-form__textarea"
             id="franchise-comment"
-            placeholder=""
+            placeholder="Comment"
             class="modal-form__input modal-form__input-text"
             optional
             minlength="10"
