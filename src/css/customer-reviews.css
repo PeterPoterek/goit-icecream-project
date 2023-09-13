@@ -86,14 +86,22 @@
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .slide-description {
+    width: 705px;
+    height: 138px;
+    padding: 28px 80px;
+    font-size: 14px;
+    line-height: 1.86; /* 29.76px */
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .slide-description {
     width: 968px;
     height: 138px;
     padding: 43px 109px;
     font-size: var(--font-size-normal, 16px);
-    line-height: 1.86;
-    /* 29.76px */
   }
 }
 
