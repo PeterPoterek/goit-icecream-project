@@ -263,6 +263,7 @@
     justify-content: flex-end;
 
     max-width: 200px;
+    padding-bottom: 24px;
   }
   .hero-content-description {
     max-width: 349px;
