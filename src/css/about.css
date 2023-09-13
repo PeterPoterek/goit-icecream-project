@@ -134,6 +134,7 @@
   gap: 40px;
   flex-direction: column;
   justify-content: center;
+  padding-top: 32px;
 }
 .about_image-wrap {
   border-radius: 140px;
@@ -183,6 +184,9 @@
   padding-top: 0;
   align-items: center;
   text-align: center;
+  flex-direction: column;
+  display: flex;
+  padding-top: 40px;
 }
 .about_text-wrap {
   display: flex;
@@ -308,6 +312,7 @@
   display: inline-block;
   margin: 0 auto;
   text-align: center;
+  padding-top: 24px;
 }
 .about_btn {
   max-width: 164px;
