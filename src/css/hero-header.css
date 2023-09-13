@@ -97,7 +97,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .button-tablet-header {
     display: none;
   }
@@ -175,7 +175,7 @@
   }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .navigation-modal-mobile {
     font-size: 48px;
   }
