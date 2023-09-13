@@ -74,6 +74,13 @@
 .menu-mobile-header {
   background-color: transparent;
   border: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 1199.9px) {
+  .menu-mobile-header {
+    display: none;
+  }
 }
 
 .logo-mobile-header {
@@ -83,6 +90,7 @@
 .buttions-mobile-header {
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 }
 
 @media screen and (max-width: 1199.9px) {
@@ -97,7 +105,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .button-tablet-header {
     display: none;
   }
