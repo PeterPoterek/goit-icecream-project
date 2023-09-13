@@ -8,7 +8,9 @@
       </svg>
     </button>
     <h2 class="modal__title title">Chololate icecream</h2>
-    <div class="modal__iamge"></div>
+    <div class="modal__image">
+      <img src="./images/products/products-modal-ice-cream-1x.png" alt="ice cream in a con" width="132" height="132">
+    </div>
     <ul class="modal-products-list">
       <li class="modal-products-list__item">
         <span class="modal-products__icons-text" style="background-color: rgb(174, 198, 165);">320</span>kcal
@@ -79,14 +81,20 @@
     <form class="modal-form" name="modal-form">
       <div class="modal-form__input-wrapper">
         <label for="name" class="modal-form__label">Name</label>
-        <input type="text" required id="name" for="name" minlength="2" class="modal-form__input" />
+        <input 
+        type="text" 
+        required 
+        id="name" 
+        for="name" 
+        minlength="3"
+        class="modal-form__input" />
       </div>
       <div class="modal-form__input-wrapper">
         <label for="tel" class="modal-form__label">Phone</label>
         <input
-          type="tel"
+          type="number"
           required
-          id="tel"
+          id="number"
           for="tel"
           class="modal-form__input"
           placeholder=""
@@ -122,7 +130,7 @@
     <h2 class="about-modal__title modal__title title">How it`s made?</h2>
     <video
       class="about__vid"
-      src="https://youtu.be/ZZ5LpwO-An4?si=TVthMOa1QG9npkg7"
+      src="/src/images/video/mixkit-slow-motion-portrait-of-a-cow-grazing-32604-medium.mp4"
       poster="/src/images/cow-poster-about.jpg"
       controls
       preload="auto"
