@@ -171,11 +171,17 @@
 @media screen and (min-width: 1200px) {
   .about_image-wrap {
     width: 490px;
+    height: 490px;
+    flex-shrink: 0;
     border-radius: 250px;
+    background: linear-gradient(0deg, rgba(248, 210, 78, 0.70) 0%, rgba(248, 210, 78, 0.70) 100%), #D9D9D9;
     box-shadow: 0px 8px 30px 0px rgba(153, 114, 23, 0.25);
   }
+  .about_image-wrap img {
+    width: 490px;
+    height: 490px;
+  }
 }
-
 .about_image-wrap img {
   object-fit: contain;
   position: relative;
@@ -231,6 +237,7 @@
   color: #fcfcfc;
   width: 336px;
   flex-direction: column;
+  text-align: left;
  }
  .about_paragraph_1 {
   color: #fcfcfc;
@@ -242,6 +249,7 @@
   font-weight: 400;
   line-height: 176%; /* 21.12px */
   letter-spacing: 0.48px;
+  text-align: left;
  }
  .about_paragraph_2 {
   width: 334px;
@@ -253,6 +261,7 @@
   font-weight: 400;
   line-height: 176%; /* 21.12px */
   letter-spacing: 0.48px;
+  text-align: left;
 }
 .about_paragraph_3 {
   width: 336px;
@@ -264,6 +273,7 @@
   font-weight: 400;
   line-height: 194%; /* 23.28px */
   letter-spacing: 0.48px;
+  text-align: left;
 }
 }
 
@@ -274,9 +284,11 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
+  text-align: left;
+  padding-top: 172px;
  }
  .about_paragraph_1 {
-  width: 220px;
+  width: 463px;
   color: #FCFCFC;
   text-align: center;
   font-family: Montserrat;
@@ -285,9 +297,10 @@
   font-weight: 400;
   line-height: 176%; /* 21.12px */
   letter-spacing: 0.48px;
+  text-align: left;
 }
  .about_paragraph_2 {
-  width: 220px;
+  width: 463px;
   color: #FCFCFC;
   text-align: center;
   font-family: Montserrat;
@@ -295,9 +308,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 162%; /* 19.44px */
+  text-align: left;
  }
 .about_paragraph_3 {
-  width: 220px;
+  width: 457px;
   color: #FCFCFC;
   text-align: center;
   font-family: Montserrat;
@@ -305,6 +319,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 162%; /* 19.44px */
+  text-align: left;
 }
 }
 .buttom_wrap {
@@ -334,6 +349,7 @@
     width: 164px;
     border-radius: 10px;
     background: #F8D24E;
+    
   }
   .about_icon-button-arrow {
     width: 12px;
@@ -346,6 +362,7 @@
     width: 164px;
     border-radius: 10px;
     background: #F8D24E;
+    padding-top: 54px;
   }
   .about_icon-button-arrow {
     width: 12px;
