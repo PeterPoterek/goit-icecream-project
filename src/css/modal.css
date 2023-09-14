@@ -24,7 +24,6 @@
 }
 
 .modal {
-  /* width: 568px; */
   background: var(--white-shade);
   border: 2px solid var(--yellow);
   border-radius: 10px;
@@ -33,7 +32,7 @@
   transform: scale(1);
   z-index: 30;
   overflow-y: scroll;
-  max-height: 100vh;
+  max-height: min(100vh, 1000px);
 }
 
 @media screen and (min-width: 480px) {
