@@ -1,124 +1,178 @@
 #advantages {
-  color: var(--white-shade);
-  display: flex;
-  justify-content: center;
-  margin-bottom: 81px;
+    color: var(--white-shade);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 81px;
 }
 
 @media screen and (min-width: 768px) {
-  #advantages {
-    margin-bottom: 344px;
-  }
+    #advantages {
+        margin-bottom: 204px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-  #advantages {
-    margin-bottom: 178px;
-  }
+    #advantages {
+        margin-bottom: 177px;
+    }
 }
 
 .advantages-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #advantages ul {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 @media screen and (min-width: 768px) {
-  #advantages ul {
-    flex-direction: row;
-    gap: 80px;
-  }
+    #advantages ul {
+        flex-direction: row;
+        gap: 80px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-  #advantages ul {
-    gap: 32px;
-  }
+    #advantages ul {
+        gap: 32px;
+    }
 }
 
 #advantages ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 230px;
 }
 
 @media screen and (min-width: 768px) {
-  #advantages ul li {
-    width: 152px;
-    height: 88px;
-    gap: 12px;
-  }
+    #advantages ul li {
+        width: 152px;
+        gap: 12px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-  #advantages ul li {
-    width: 368px;
-    height: 52px;
-  }
+    #advantages ul li {
+        width: 368px;
+        /* height: 52px; */
+    }
 }
+
 
 .advantages-big {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.44px;
-  text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
-  .advantages-big {
-    text-transform: none;
-    font-size: 48px;
-    letter-spacing: 1.92px;
-  }
+    .advantages-big {
+        text-transform: none;
+        font-size: 48px;
+        letter-spacing: 1.92px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-  .advantages-big {
-    font-size: 58px;
-    letter-spacing: 2.32px;
-  }
+    .advantages-big {
+        font-size: 58px;
+        letter-spacing: 2.32px;
+    }
 }
 
 .advantages-small {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 170%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 170%;
+
 }
 
 @media screen and (min-width: 768px) {
-  .advantages-small {
-    font-size: 14px;
-    line-height: 174%;
-  }
+    .advantages-small {
+        font-size: 14px;
+        line-height: 174%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-  .advantages-small {
-    font-size: 16px;
-    line-height: 176%;
-    letter-spacing: 0.32px;
-  }
+    .advantages-small {
+        font-size: 16px;
+        line-height: 176%;
+        letter-spacing: 0.32px;
+    }
 }
 
-.advantage-icons-bg {
-  background-color: var(--yellow);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  padding: 7px;
+/* .advantage-icons-bg {
+    background-color: var(--yellow);
+    width: 50px;
+    height: 50px;
+    border-radius: 25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .advantages-icons {
-  width: 36px;
-  height: 36px;
+    width: 36px;
+    height: 36px;
+} */
+/* 
+dlaczego ikona ze skompresowanego pliku nie działa mimo że wstawiona przez html się normalnie wyświetla
+
+#advantages ul li:first-child .advantages-big::before {
+    content: url("../images/icons.svg#icon-weight");
+    background-color: var(--yellow);
+    width: 50px;
+    height: 50px;
+    border-radius: 25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.advantages-big::before {
+    content: url("../images/advantages/cow.svg");
+    background-color: var(--yellow);
+    width: 50px;
+    height: 50px;
+    border-radius: 25;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .advantages-big :before {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages-big :before {
+        margin-bottom: 40px;
+    }
+}
+
+#advantages ul li:first-child .advantages-big::before {
+    content: url("../images/advantages/cow.svg");
+}
+
+#advantages ul li:nth-child(2) .advantages-big::before {
+    content: url("../images/advantages/weight.svg");
+
+}
+
+#advantages ul li:last-child .advantages-big::before {
+    content: url("../images/advantages/ice-cream.svg");
 }
