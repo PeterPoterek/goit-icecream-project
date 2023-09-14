@@ -33,7 +33,7 @@
   transform: scale(1);
   z-index: 30;
   overflow-y: scroll;
-  max-height: 750px;
+  max-height: 100vh;
 }
 
 @media screen and (min-width: 480px) {
