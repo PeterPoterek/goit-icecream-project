@@ -96,17 +96,20 @@
       </svg>
     </button>
     <h2 class="modal__title title">Buy now</h2>
-    <ul class="modal-list">
-      <li class="modal-list__item modal-list__item--green">
+    <form class="modal-list">
+      <div class="modal-list__item modal-list__item--green">
+        <input type="checkbox" class="fake-checkbox">
         <p class="modal-list__item--text">Ice cream</p>
-      </li>
-      <li class="modal-list__item modal-list__item--yellow">
+      </div>
+      <div class="modal-list__item modal-list__item--yellow">
+        <input type="checkbox" class="fake-checkbox">
         <p class="modal-list__item--text">Ice coffee</p>
-      </li>
-      <li class="modal-list__item modal-list__item--brown">
-        <p class="modal-list__item--text">Milkshake</p>
-      </li>
-    </ul>
+      </div>
+      <div class="modal-list__item modal-list__item--brown">
+        <input type="checkbox" class="fake-checkbox">
+        <label class="modal-list__item--text">Milkshake</label>
+      </div>
+    </form>
     <form class="modal-form" name="modal-form">
       <div class="modal-form__input-wrapper">
         <label for="name" class="modal-form__label visually-hidden">Name</label>
