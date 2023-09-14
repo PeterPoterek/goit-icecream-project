@@ -140,7 +140,6 @@ dlaczego ikona ze skompresowanego pliku nie działa mimo że wstawiona przez htm
 } */
 
 .advantages-big::before {
-    content: url("../images/advantages/cow.svg");
     background-color: var(--yellow);
     width: 50px;
     height: 50px;
