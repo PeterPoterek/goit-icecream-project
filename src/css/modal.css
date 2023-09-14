@@ -32,6 +32,8 @@
   transition: transform 0.25s cubic- bezier(0.4, 0, 0.2, 1);
   transform: scale(1);
   z-index: 30;
+  overflow-y: scroll;
+  max-height: 750px;
 }
 
 @media screen and (min-width: 480px) {
@@ -49,6 +51,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
+
+    width: 100%;
+    overflow-y: scroll;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 568px;
   }
 }
 
@@ -375,7 +385,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   flex-direction: row;
   text-transform: none;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-size: 1.6rem;
   line-height: 1.5;
 }
