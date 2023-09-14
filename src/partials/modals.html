@@ -57,6 +57,7 @@
           id="name"
           class="modal-form__input"
           placeholder="Name"
+          minlength="2"
         />
       </div>
       <div class="modal-form__input-wrapper">
@@ -68,6 +69,7 @@
           id="tel"
           class="modal-form__input"
           placeholder="Phone"
+          minlength="10"
         />
       </div>
       <div class="modal-form__input-wrapper modal-form__input-wrapper-text">
@@ -113,7 +115,7 @@
           required
           id="name"
           for="name"
-          minlength="3"
+          minlength="2"
           class="modal-form__input"
           placeholder="Name"
         />
@@ -138,7 +140,6 @@
           placeholder="Comment"
           class="modal-form__input modal-form__input-text"
           optional
-          minlength="10"
         ></textarea>
       </div>
       <button class="btn btn--primary modal__btn" type="submit">Submit</button>
@@ -239,7 +240,7 @@
         <div class="modal-form__input-wrapper">
           <label for="tel" class="modal-form__label visually-hidden">Phone</label>
           <input
-            type="tel"
+            type="number"
             required
             id="tel"
             for="tel"
@@ -267,7 +268,6 @@
             placeholder="Comment"
             class="modal-form__input modal-form__input-text"
             optional
-            minlength="10"
           ></textarea>
         </div>
         <button class="btn btn--primary modal__btn" type="submit">Submit</button>
