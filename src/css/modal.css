@@ -415,6 +415,8 @@ input::-webkit-inner-spin-button {
   margin: 0 auto 20px;
   display: flex;
   position: relative;
+  fill: linear-gradient(0deg, rgba(156, 190, 143, 0.7) 0%, rgba(156, 190, 143, 0.7) 100%), #d9d9d9;
+  filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(10, 136, 23, 0.25));
 }
 
 .modal-products-list {
@@ -477,6 +479,8 @@ input::-webkit-inner-spin-button {
   width: 53px;
   height: 53px;
   flex-shrink: 0;
+
+  filter: drop-shadow(0px 6px 20px rgba(10, 136, 23, 0.25));
 }
 
 @media screen and (min-width: 480px) {
