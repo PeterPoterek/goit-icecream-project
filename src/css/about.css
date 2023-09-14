@@ -345,6 +345,9 @@
 
 }
 @media screen and (min-width: 768px) {
+  .buttom_wrap{
+    margin: 0;
+  }
   .about_btn btn--primary {
     width: 164px;
     border-radius: 10px;
