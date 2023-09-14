@@ -277,7 +277,6 @@
   top: 8px;
   left: 12px;
 }
-
 @media screen and (min-width: 768px) {
   .modal-form__label {
     /*font-size: 1.4rem;*/
@@ -297,6 +296,9 @@
   font-size: 12px;
   line-height: 1.4;
   display: block;
+}
+.modal-form__input:not(:placeholder-shown):required:invalid {
+  border-color: #f44336;
 }
 
 input::-webkit-outer-spin-button,
