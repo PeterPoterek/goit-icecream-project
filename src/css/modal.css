@@ -33,6 +33,8 @@
   z-index: 30;
   overflow-y: scroll;
   max-height: min(100vh, 1000px);
+
+  max-width: 280px;
 }
 
 @media screen and (min-width: 480px) {
@@ -381,12 +383,12 @@ input::-webkit-inner-spin-button {
 }
 
 .modal__title {
-  display: flex;
   flex-direction: row;
   text-transform: none;
-  /* margin-bottom: 20px; */
-  font-size: 1.6rem;
+  font-size: 20px;
   line-height: 1.5;
+  text-align: center;
+  padding-bottom: 70px;
 }
 
 @media screen and (min-width: 480px) {
@@ -721,4 +723,170 @@ input::-webkit-inner-spin-button {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
+}
+.modal-checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  justify-content: center;
+  align-items: center;
+}
+.modal-checkbox-wrapper1,
+.modal-checkbox-wrapper2,
+.modal-checkbox-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 40px;
+}
+
+.modal-checkbox-item1,
+.modal-checkbox-item2,
+.modal-checkbox-item3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkbox-label1 {
+  border: solid 2px var(--green-shade);
+
+  border-radius: 15px;
+  width: 132px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.checkbox-label2 {
+  border: solid 2px var(--yellow);
+
+  border-radius: 15px;
+  width: 132px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.checkbox-label3 {
+  border: solid 2px var(--dark-orange);
+  border-radius: 15px;
+  width: 132px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+.checkbox-image1 {
+  position: absolute;
+  top: -40px;
+  z-index: 1;
+  filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(10, 136, 23, 0.25));
+
+  box-shadow: 0 7px var(--green-shade);
+  border-radius: 98px;
+}
+
+.checkbox-image2 {
+  position: absolute;
+  top: -40px;
+  z-index: 1;
+  filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(153, 114, 23, 0.25));
+
+  box-shadow: 0 7px var(--yellow);
+  border-radius: 98px;
+}
+
+.checkbox-image3 {
+  position: absolute;
+  top: -40px;
+  z-index: 1;
+  filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(0, 0, 0, 0.25));
+
+  box-shadow: 0 7px var(--dark-orange);
+  border-radius: 98px;
+}
+
+.checkbox-text1 {
+  color: var(--black-shade);
+  font-size: var(--font-size-normal);
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  top: 239px;
+
+  pointer-events: none;
+}
+
+.checkbox-text2 {
+  color: var(--black-shade);
+  font-size: var(--font-size-normal);
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  top: 440px;
+
+  pointer-events: none;
+}
+.checkbox-text3 {
+  color: var(--black-shade);
+  font-size: var(--font-size-normal);
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  top: 647px;
+
+  pointer-events: none;
+}
+
+.modal-checkbox-item1 input[type='checkbox'],
+.modal-checkbox-item2 input[type='checkbox'],
+.modal-checkbox-item3 input[type='checkbox'] {
+  display: none;
+}
+
+/* Styles for checked checkbox label with class 1 */
+.modal-checkbox-item1 input[type='checkbox']:checked + .checkbox-label1 {
+  background-color: #aec6a54d;
+}
+
+/* Styles for checked checkbox label with class 2 */
+.modal-checkbox-item2 input[type='checkbox']:checked + .checkbox-label2 {
+  background-color: #f8d34e90;
+}
+
+/* Styles for checked checkbox label with class 3 */
+.modal-checkbox-item3 input[type='checkbox']:checked + .checkbox-label3 {
+  background-color: #d6936d78;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox-text1,
+  .checkbox-text2,
+  .checkbox-text3 {
+    top: 246px;
+  }
+  .modal-checkbox-container {
+    flex-direction: row;
+  }
 }
