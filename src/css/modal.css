@@ -722,7 +722,14 @@ input::-webkit-inner-spin-button {
   visibility: hidden;
   opacity: 0;
 }
-/* Common styles for all checkbox wrappers */
+.modal-checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  justify-content: center;
+  align-items: center;
+}
 .modal-checkbox-wrapper1,
 .modal-checkbox-wrapper2,
 .modal-checkbox-wrapper3 {
@@ -734,7 +741,6 @@ input::-webkit-inner-spin-button {
   padding-bottom: 40px;
 }
 
-/* Common styles for all checkbox items */
 .modal-checkbox-item1,
 .modal-checkbox-item2,
 .modal-checkbox-item3 {
@@ -744,7 +750,6 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
-/* Common styles for all checkbox labels */
 .checkbox-label1,
 .checkbox-label2,
 .checkbox-label3 {
@@ -758,22 +763,19 @@ input::-webkit-inner-spin-button {
   align-items: center;
   transition: background-color 0.3s ease;
 
-  /* Add position relative to the label */
   position: relative;
 }
 
-/* Common styles for all checkbox images */
 .checkbox-image1,
 .checkbox-image2,
 .checkbox-image3 {
   position: absolute;
   top: -40px;
   z-index: 1;
-  fill: linear-gradient(0deg, rgba(156, 190, 143, 0.7) 0%, rgba(156, 190, 143, 0.7) 100%), #d9d9d9;
+  fill: linear-gradient(0deg, rgba(156, 190, 143, 0.776) 0%, rgba(156, 190, 143, 0.7) 100%), #d9d9d9;
   filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(10, 136, 23, 0.25));
 }
 
-/* Common styles for all checkbox text */
 .checkbox-text1,
 .checkbox-text2,
 .checkbox-text3 {
@@ -787,16 +789,20 @@ input::-webkit-inner-spin-button {
   padding-top: 100px;
 }
 
-/* Hide the actual checkboxes for all items */
 .modal-checkbox-item1 input[type='checkbox'],
 .modal-checkbox-item2 input[type='checkbox'],
 .modal-checkbox-item3 input[type='checkbox'] {
   display: none;
 }
 
-/* Styles for when the checkboxes are checked */
 .modal-checkbox-item1 input[type='checkbox']:checked + .checkbox-label1,
 .modal-checkbox-item2 input[type='checkbox']:checked + .checkbox-label2,
 .modal-checkbox-item3 input[type='checkbox']:checked + .checkbox-label3 {
   background-color: #aec6a54d;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-checkbox-container {
+    flex-direction: row;
+  }
 }
