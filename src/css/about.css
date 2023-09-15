@@ -196,10 +196,12 @@
   padding-top: 40px;
 }
 .about_text-wrap {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   width: 100%;
   max-width: 220px;
+  align-items: flex-start;
+  gap: 4px;
 }
 .about_paragraph_1 {
   width: 220px;
@@ -290,7 +292,6 @@
  .about_paragraph_1 {
   width: 463px;
   color: #FCFCFC;
-  text-align: center;
   font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
@@ -302,7 +303,6 @@
  .about_paragraph_2 {
   width: 463px;
   color: #FCFCFC;
-  text-align: center;
   font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
@@ -313,7 +313,6 @@
 .about_paragraph_3 {
   width: 457px;
   color: #FCFCFC;
-  text-align: center;
   font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
