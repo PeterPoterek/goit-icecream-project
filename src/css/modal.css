@@ -33,8 +33,6 @@
   z-index: 30;
   overflow-y: scroll;
   max-height: min(100vh, 1000px);
-
-  max-width: 280px;
 }
 
 @media screen and (min-width: 480px) {
@@ -660,6 +658,8 @@ input::-webkit-inner-spin-button {
   font-style: normal;
   font-weight: 400;
   line-height: 1.4;
+
+  padding-top: 28px;
 }
 
 @media screen and (min-width: 480px) {
