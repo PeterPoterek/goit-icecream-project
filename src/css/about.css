@@ -243,7 +243,6 @@
  }
  .about_paragraph_1 {
   color: #fcfcfc;
-  flex-direction: column;
   width: 334px;
   font-family: Montserrat;
   font-size: 12px;
@@ -297,7 +296,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 176%; /* 21.12px */
-  letter-spacing: 0.48px;
+  letter-spacing: 0.64px;
   text-align: left;
 }
  .about_paragraph_2 {
@@ -307,8 +306,9 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 162%; /* 19.44px */
+  line-height: 194%; /* 19.44px */
   text-align: left;
+  letter-spacing: 0,56px;
  }
 .about_paragraph_3 {
   width: 457px;
@@ -319,6 +319,7 @@
   font-weight: 400;
   line-height: 162%; /* 19.44px */
   text-align: left;
+  letter-spacing: 0,56px;
 }
 }
 .buttom_wrap {
@@ -341,7 +342,12 @@
 .about_icon-button-arrow {
   width: 12px;
   color: #000;
-
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
 }
 @media screen and (min-width: 768px) {
   .buttom_wrap{
