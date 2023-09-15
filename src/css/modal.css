@@ -793,7 +793,6 @@ input::-webkit-inner-spin-button {
   position: absolute;
   top: -40px;
   z-index: 1;
-  fill: linear-gradient(0deg, rgba(156, 190, 143, 0.776) 0%, rgba(156, 190, 143, 0.7) 100%), #d9d9d9;
   filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(10, 136, 23, 0.25));
 }
 
@@ -801,7 +800,6 @@ input::-webkit-inner-spin-button {
   position: absolute;
   top: -40px;
   z-index: 1;
-  fill: linear-gradient(0deg, rgba(248, 210, 78, 0.7) 0%, rgba(248, 210, 78, 0.7) 100%), #d9d9d9;
   filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(153, 114, 23, 0.25));
 }
 
@@ -809,7 +807,6 @@ input::-webkit-inner-spin-button {
   position: absolute;
   top: -40px;
   z-index: 1;
-  fill: linear-gradient(0deg, rgba(213, 117, 63, 0.7) 0%, rgba(213, 117, 63, 0.7) 100%), #d9d9d9;
   filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(0, 0, 0, 0.25));
 }
 
