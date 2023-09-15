@@ -722,3 +722,35 @@ input::-webkit-inner-spin-button {
   visibility: hidden;
   opacity: 0;
 }
+.modal-checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox-container input[type='checkbox'] {
+  display: none;
+}
+.modal-checkbox-item {
+  border: solid 2px #96af8c;
+  border-radius: 15px;
+  position: relative;
+  width: 132px;
+  height: 135px;
+}
+.checkbox-image {
+  position: absolute;
+  top: -50px;
+  left: -1px;
+}
+.checkbox-container img {
+}
+
+.checkbox-container input[type='checkbox']:checked + img {
+  background-color: red;
+}
