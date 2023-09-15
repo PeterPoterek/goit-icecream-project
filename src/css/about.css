@@ -52,26 +52,19 @@
 .about_button {
   font-weight: 600;
   background-color: var(--yellow);
-
   font-size: var(--font-size-small);
-
   outline: none;
   border: none;
-
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 32px;
   padding-right: 32px;
-
   border-radius: 10px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
-
   max-width: 164px;
-
   margin: 0 auto;
 }
 
