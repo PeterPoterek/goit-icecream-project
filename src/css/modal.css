@@ -830,6 +830,8 @@ input::-webkit-inner-spin-button {
   text-align: center;
   position: absolute;
   top: 239px;
+
+  pointer-events: none;
 }
 
 .checkbox-text2 {
@@ -841,6 +843,8 @@ input::-webkit-inner-spin-button {
   text-align: center;
   position: absolute;
   top: 440px;
+
+  pointer-events: none;
 }
 .checkbox-text3 {
   color: var(--black-shade);
@@ -851,6 +855,8 @@ input::-webkit-inner-spin-button {
   text-align: center;
   position: absolute;
   top: 647px;
+
+  pointer-events: none;
 }
 
 .modal-checkbox-item1 input[type='checkbox'],
