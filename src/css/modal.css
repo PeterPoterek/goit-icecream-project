@@ -794,6 +794,9 @@ input::-webkit-inner-spin-button {
   top: -40px;
   z-index: 1;
   filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(10, 136, 23, 0.25));
+
+  box-shadow: 0 7px var(--green-shade);
+  border-radius: 98px;
 }
 
 .checkbox-image2 {
@@ -801,6 +804,9 @@ input::-webkit-inner-spin-button {
   top: -40px;
   z-index: 1;
   filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(153, 114, 23, 0.25));
+
+  box-shadow: 0 7px var(--yellow);
+  border-radius: 98px;
 }
 
 .checkbox-image3 {
@@ -808,6 +814,9 @@ input::-webkit-inner-spin-button {
   top: -40px;
   z-index: 1;
   filter: drop-shadow(0px 5.2602739334106445px 19.72602653503418px rgba(0, 0, 0, 0.25));
+
+  box-shadow: 0 7px var(--dark-orange);
+  border-radius: 98px;
 }
 
 .checkbox-text1,
