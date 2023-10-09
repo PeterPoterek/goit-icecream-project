@@ -27,15 +27,10 @@ with unique flavors, our website has something for everyone.
 
 ## Technologies Used
 
-<div style="display: flex; align-items: center;">
-  <img src="./html.svg" alt="HTML5" width="30" height="30" style="margin-right: 10px;"> HTML5
-</div>
-<div style="display: flex; align-items: center;">
-  <img src="./javascript.svg" alt="JavaScript" width="30" height="30" style="margin-right: 10px;"> JavaScript
-</div>
-<div style="display: flex; align-items: center;">
-  <img src="./css.svg" alt="CSS3" width="30" height="30" style="margin-right: 10px;"> CSS3
-</div>
+- <img src="./html.svg" alt="HTML5" width="30" height="30" style="margin-right: 10px;"> HTML5
+- <img src="./javascript.svg" alt="JavaScript" width="30" height="30" style="margin-right: 10px;">
+  JavaScript
+- <img src="./css.svg" alt="CSS3" width="30" height="30" style="margin-right: 10px;"> CSS3
 
 ## Getting Started
 
