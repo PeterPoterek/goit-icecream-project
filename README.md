@@ -43,9 +43,10 @@ npm ci
 npm run dev
 ```
 ## GitHub Pages
-You can view our project live on GitHub Pages. Here's the link: IceCream Ordering Website
+You can view our project live on GitHub Pages. Here's the link: [IceCream Ordering Website](https://peterpoterek.github.io/goit-icecream-copy/)
 
 ## Screenshots
+![image](https://github.com/PeterPoterek/goit-icecream-project/assets/86746994/d5356f4c-c770-4d67-96d0-a4dcfc129bff)
 
 Feel free to explore the project and place your orders!
 
@@ -56,7 +57,7 @@ Feel free to explore the project and place your orders!
 - [Mateusz Kuć- Modals] - [@kcufury](https://github.com/kcufury)
 - [Kacper Łakomiec - Navbar] - [@PoProstuCyc](https://github.com/PoProstuCyc)
 - [Agnieszka Choma - Contacts section] - [@achoma](https://github.com/achoma)
-- [Marta Paszkowska - Products section] - [@MartaPaszkowska](https://github.com/MartaPaszkowska))
+- [Marta Paszkowska - Products section] - [@MartaPaszkowska](https://github.com/MartaPaszkowska)
 - [Łukasz Łukasik - Footer] - [@Lukasz8791](https://github.com/Lukasz8791)
 - [Jakub Migda - Advantages section] - [@Jakub0821](https://github.com/Jakub0821)
 
