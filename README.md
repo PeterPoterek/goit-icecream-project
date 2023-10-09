@@ -71,6 +71,3 @@ You can view our project live on GitHub Pages. Here's the link:
 - 🍨 [Marta Paszkowska - Products section] - [@MartaPaszkowska](https://github.com/MartaPaszkowska)
 - 🍭 [Łukasz Łukasik - Footer] - [@Lukasz8791](https://github.com/Lukasz8791)
 - 💡 [Jakub Migda - Advantages section] - [@Jakub0821](https://github.com/Jakub0821)
-
-We appreciate the contributions of all team members to make this project a reality. If you have any
-questions or feedback, don't hesitate to reach out!
