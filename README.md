@@ -8,13 +8,13 @@ Welcome to our IceCream Ordering Website project! This web application allows us
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
+- [GitHub Pages](#github-pages)
+- [Screenshots](#screenshots)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## Introduction
 
-This project was developed as a part of our fullstack course. It provides a user-friendly interface for ordering various flavors of ice cream. Whether you're a fan of classic vanilla or adventurous with unique flavors, our website has something for everyone.
+This project was developed as a part of our full-stack course. It provides a user-friendly interface for ordering various flavors of ice cream. Whether you're a fan of classic vanilla or adventurous with unique flavors, our website has something for everyone.
 
 ## Features
 
@@ -41,3 +41,18 @@ Once you have Node.js installed, follow these steps:
 ```bash
 npm ci
 npm run dev
+```
+## GitHub Pages
+You can view our project live on GitHub Pages. Here's the link: IceCream Ordering Website
+
+## Screenshots
+Screenshot 1
+Screenshot 2
+
+Feel free to explore the project and place your orders!
+
+## Contributors
+Peter (Team Lead)
+[Teammate 1]
+[Teammate 2]
+We appreciate the contributions of all team members to make this project a reality. If you have any questions or feedback, don't hesitate to reach out!
