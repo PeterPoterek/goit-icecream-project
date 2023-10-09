@@ -1,6 +1,7 @@
 # 🍦 GoIt Icecream Project
 
-Welcome to our IceCream Ordering Website project! This web application allows users to order delicious ice cream.
+Welcome to our IceCream Ordering Website project! This web application allows users to order
+delicious ice cream.
 
 ## Table of Contents
 
@@ -14,7 +15,9 @@ Welcome to our IceCream Ordering Website project! This web application allows us
 
 ## Introduction
 
-This project was developed as a part of our full-stack course. It provides a user-friendly interface for ordering various flavors of ice cream. Whether you're a fan of classic vanilla or adventurous with unique flavors, our website has something for everyone.
+This project was developed as a part of our full-stack course. It provides a user-friendly interface
+for ordering various flavors of ice cream. Whether you're a fan of classic vanilla or adventurous
+with unique flavors, our website has something for everyone.
 
 ## Features
 
@@ -24,13 +27,14 @@ This project was developed as a part of our full-stack course. It provides a use
 
 ## Technologies Used
 
-- HTML
-- CSS
-- Vanilla JavaScript
+- <img src="html.svg" alt="HTML5" width="30" height="30"> HTML5
+- <img src="javascript.svg" alt="JavaScript" width="30" height="30"> JavaScript
+- <img src="css.svg" alt="CSS3" width="30" height="30"> CSS3
 
 ## Getting Started
 
-To run this project, you'll need to have Node.js installed. If you don't have it, you can download it from [nodejs.org](https://nodejs.org/).
+To run this project, you'll need to have Node.js installed. If you don't have it, you can download
+it from [nodejs.org](https://nodejs.org/).
 
 Once you have Node.js installed, follow these steps:
 
@@ -42,18 +46,23 @@ Once you have Node.js installed, follow these steps:
 npm ci
 npm run dev
 ```
+
 ## GitHub Pages
-You can view our project live on GitHub Pages. Here's the link: [IceCream Ordering Website](https://peterpoterek.github.io/goit-icecream-copy/)
+
+You can view our project live on GitHub Pages. Here's the link:
+[IceCream Ordering Website](https://peterpoterek.github.io/goit-icecream-copy/)
 
 ## Screenshots
+
 ![image](https://github.com/PeterPoterek/goit-icecream-project/assets/86746994/d5356f4c-c770-4d67-96d0-a4dcfc129bff)
 ![image](https://github.com/PeterPoterek/goit-icecream-project/assets/86746994/a23529af-9e0b-496f-bfd9-95e38ab25fd7)
 ![image](https://github.com/PeterPoterek/goit-icecream-project/assets/86746994/6d2561e8-1438-4992-8496-58f6ee883b06)
 
-
 ## Contributors
+
 - 🧑‍💻 [Peter Poterek - TeamLead/Hero section] - [@PeterPoterek](https://github.com/PeterPoterek)
-- 🧑‍💼 [Daniel Toporek - Scrum Master/Gallery section] - [@ToporekDaniel](https://github.com/ToporekDaniel)
+- 🧑‍💼 [Daniel Toporek - Scrum Master/Gallery section] -
+  [@ToporekDaniel](https://github.com/ToporekDaniel)
 - 📷 [Valentyn Chernetskyi - Swiper/Customer Reviews] - [@Valik3201](https://github.com/Valik3201)
 - 🖼️ [Mateusz Kuć- Modals] - [@kcufury](https://github.com/kcufury)
 - 🍦 [Kacper Łakomiec - Navbar] - [@PoProstuCyc](https://github.com/PoProstuCyc)
@@ -62,5 +71,5 @@ You can view our project live on GitHub Pages. Here's the link: [IceCream Orderi
 - 🍭 [Łukasz Łukasik - Footer] - [@Lukasz8791](https://github.com/Lukasz8791)
 - 💡 [Jakub Migda - Advantages section] - [@Jakub0821](https://github.com/Jakub0821)
 
-
-We appreciate the contributions of all team members to make this project a reality. If you have any questions or feedback, don't hesitate to reach out!
+We appreciate the contributions of all team members to make this project a reality. If you have any
+questions or feedback, don't hesitate to reach out!
