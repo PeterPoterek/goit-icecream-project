@@ -1,52 +1,43 @@
-<!-- spać mi się chce -->
+# GoIt Icecream Project
 
-# parcel-project-template
+Welcome to our IceCream Ordering Website project! This web application allows users to order delicious ice cream.
 
-## Zalezności
+## Table of Contents
 
-Na komputerze musi być zainstalowana LTS-wersja [Node.js](https://nodejs.org/en/).
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [License](#license)
 
-## Przed rozpoczęciem pracy
+## Introduction
 
-Jeden raz na projekt zainstalować wszystkie zalezności.
+This project was developed as a part of our fullstack course. It provides a user-friendly interface for ordering various flavors of ice cream. Whether you're a fan of classic vanilla or adventurous with unique flavors, our website has something for everyone.
 
-```shell
+## Features
+
+- Mobile-first design for a seamless experience on all devices.
+- Modals for a user-friendly and interactive ordering process.
+- A gallery made with Swiper to showcase our delicious ice cream flavors.
+
+## Technologies Used
+
+- HTML
+- CSS
+- Vanilla JavaScript
+
+## Getting Started
+
+To run this project, you'll need to have Node.js installed. If you don't have it, you can download it from [nodejs.org](https://nodejs.org/).
+
+Once you have Node.js installed, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Open your terminal/command prompt and navigate to the project directory.
+3. Run the following commands:
+
+```bash
 npm ci
-```
-
-### Praca
-
-Włączyć tryp pracy.
-
-```shell
 npm run dev
-```
-
-W przeglądarce przejść na [http://localhost:1234](http://localhost:1234).
-
-### Deploy
-
-Kod będzie automatycznie się zbierać i robić deploy aktualnej wersji projektu na GitHub Pages, w
-gałąź `gh-pages`, za kazdym razem jeśli zostaną wprowadzone zmiany w `main`. Na przykład, po
-bezpośrenim push lub po przyjęciu pull-request. Aby to działało musimy w pliku `package.json`
-zmienić pole `homepage` i skrypt `build`, zmieniając `nazwe_uzytkownika` i `nazwe_repozytorium` na
-swoje.
-
-```json
-"homepage": "https://nazwa_uzytkownika.github.io/nazwa_repozytorium",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /nazwa_repozytorium/"
-},
-```
-
-Po jakimś czasie stronę mozna będzie zobaczyć na zywo pod adresem który jest wpisany w poprawione
-właściwości `homepage`, na przykład
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
-
-## Pliki i folderzy
-
-- Wszystkie partials plików styłów powinny być w folderze `src/sass` i importować się w
-  `src/sass/main.scss`
-- Zdjęcia dodawajcie w folder `src/images`, przed tym zoptymizujcie te zdjęcia które dodajecie.
-  Program po prostu kopiuje wykorzystane zdjęcia aby system nie musiał optymizować je, bo na słabych
-  komputerach to moze zająć duzo czasu.
