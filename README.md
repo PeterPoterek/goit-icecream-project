@@ -1,16 +1,16 @@
-# GoIt Icecream Project
+# 🍦 GoIt Icecream Project
 
 Welcome to our IceCream Ordering Website project! This web application allows users to order delicious ice cream.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [GitHub Pages](#github-pages)
-- [Screenshots](#screenshots)
-- [Contributors](#contributors)
+- 📝 [Introduction](#introduction)
+- 🌟 [Features](#features)
+- 💻 [Technologies Used](#technologies-used)
+- 🚀 [Getting Started](#getting-started)
+- 🌐 [GitHub Pages](#github-pages)
+- 🖼️ [Screenshots](#screenshots)
+- 🤝 [Contributors](#contributors)
 
 ## Introduction
 
@@ -47,19 +47,20 @@ You can view our project live on GitHub Pages. Here's the link: [IceCream Orderi
 
 ## Screenshots
 ![image](https://github.com/PeterPoterek/goit-icecream-project/assets/86746994/d5356f4c-c770-4d67-96d0-a4dcfc129bff)
+![image](https://github.com/PeterPoterek/goit-icecream-project/assets/86746994/a23529af-9e0b-496f-bfd9-95e38ab25fd7)
+![image](https://github.com/PeterPoterek/goit-icecream-project/assets/86746994/6d2561e8-1438-4992-8496-58f6ee883b06)
 
-Feel free to explore the project and place your orders!
 
 ## Contributors
-- [Peter Poterek - TeamLead/Hero section] - [@PeterPoterek](https://github.com/PeterPoterek)
-- [Daniel Toporek - Scrum Master/Gallery section] - [@ToporekDaniel](https://github.com/ToporekDaniel)
-- [Valentyn Chernetskyi - Swiper/Customer Reviews] - [@Valik3201](https://github.com/Valik3201)
-- [Mateusz Kuć- Modals] - [@kcufury](https://github.com/kcufury)
-- [Kacper Łakomiec - Navbar] - [@PoProstuCyc](https://github.com/PoProstuCyc)
-- [Agnieszka Choma - Contacts section] - [@achoma](https://github.com/achoma)
-- [Marta Paszkowska - Products section] - [@MartaPaszkowska](https://github.com/MartaPaszkowska)
-- [Łukasz Łukasik - Footer] - [@Lukasz8791](https://github.com/Lukasz8791)
-- [Jakub Migda - Advantages section] - [@Jakub0821](https://github.com/Jakub0821)
+- 🧑‍💻 [Peter Poterek - TeamLead/Hero section] - [@PeterPoterek](https://github.com/PeterPoterek)
+- 🧑‍💼 [Daniel Toporek - Scrum Master/Gallery section] - [@ToporekDaniel](https://github.com/ToporekDaniel)
+- 📷 [Valentyn Chernetskyi - Swiper/Customer Reviews] - [@Valik3201](https://github.com/Valik3201)
+- 🖼️ [Mateusz Kuć- Modals] - [@kcufury](https://github.com/kcufury)
+- 🍦 [Kacper Łakomiec - Navbar] - [@PoProstuCyc](https://github.com/PoProstuCyc)
+- 📞 [Agnieszka Choma - Contacts section] - [@achoma](https://github.com/achoma)
+- 🍨 [Marta Paszkowska - Products section] - [@MartaPaszkowska](https://github.com/MartaPaszkowska)
+- 🍭 [Łukasz Łukasik - Footer] - [@Lukasz8791](https://github.com/Lukasz8791)
+- 💡 [Jakub Migda - Advantages section] - [@Jakub0821](https://github.com/Jakub0821)
 
 
 We appreciate the contributions of all team members to make this project a reality. If you have any questions or feedback, don't hesitate to reach out!
