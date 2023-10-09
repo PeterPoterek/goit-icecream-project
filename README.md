@@ -46,13 +46,10 @@ npm run dev
 You can view our project live on GitHub Pages. Here's the link: IceCream Ordering Website
 
 ## Screenshots
-Screenshot 1
-Screenshot 2
 
 Feel free to explore the project and place your orders!
 
 ## Contributors
-Peter (Team Lead)
-[Teammate 1]
-[Teammate 2]
+- [Peter Poterek - TeamLead] - [@PeterPoterek]([https://github.com/GitHubUsername](https://github.com/PeterPoterek))
+
 We appreciate the contributions of all team members to make this project a reality. If you have any questions or feedback, don't hesitate to reach out!
