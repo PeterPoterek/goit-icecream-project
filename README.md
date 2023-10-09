@@ -15,7 +15,7 @@ delicious ice cream.
 
 ## Introduction
 
-This project was developed as a part of our full-stack course. It provides a user-friendly interface
+This project was developed as a part of our [GoIT](https://goit.global/ph/) full-stack course. It provides a user-friendly interface
 for ordering various flavors of ice cream. Whether you're a fan of classic vanilla or adventurous
 with unique flavors, our website has something for everyone.
 
