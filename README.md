@@ -34,7 +34,7 @@ with unique flavors, our website has something for everyone.
   <img src="./javascript.svg" alt="JavaScript" width="30" height="30" style="margin-right: 10px;"> JavaScript
 </div>
 <div style="display: flex; align-items: center;">
-  <img src="./css3.svg" alt="CSS3" width="30" height="30" style="margin-right: 10px;"> CSS3
+  <img src="./css.svg" alt="CSS3" width="30" height="30" style="margin-right: 10px;"> CSS3
 </div>
 
 ## Getting Started
